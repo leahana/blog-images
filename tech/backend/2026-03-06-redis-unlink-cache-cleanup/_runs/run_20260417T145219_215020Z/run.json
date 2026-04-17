@@ -1,0 +1,85 @@
+{
+  "artifacts": {
+    "blocks_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z/blocks",
+    "root_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z",
+    "run_log_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z/logs/run.log"
+  },
+  "blocks": [
+    {
+      "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z/blocks/block_00_line_0066_graph",
+      "block_index": 0,
+      "diagram_type": "graph",
+      "line_number": 66,
+      "manifest_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z/blocks/block_00_line_0066_graph/manifest.json",
+      "output_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/diagram_20260417_145327_00.webp",
+      "status": "succeeded"
+    }
+  ],
+  "command": {
+    "argv": [
+      "python",
+      "-m",
+      "m2c_pipeline",
+      "/tmp/retry_once_2026-03-06-redis-unlink-cache-cleanup_66.md",
+      "--translation-mode",
+      "vertex",
+      "--output-dir",
+      "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup",
+      "--max-workers",
+      "1",
+      "--log-level",
+      "ERROR"
+    ],
+    "shell": "python -m m2c_pipeline /tmp/retry_once_2026-03-06-redis-unlink-cache-cleanup_66.md --translation-mode vertex --output-dir /Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup --max-workers 1 --log-level ERROR"
+  },
+  "completed_at": "2026-04-17T14:53:28.175046+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "location": "us-central1",
+    "log_level": "ERROR",
+    "max_retries": 5,
+    "max_workers": 1,
+    "output_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup",
+    "output_format": "webp",
+    "project_id": "vertex-ai-489712",
+    "request_timeout": 600,
+    "retry_max_wait": 60,
+    "retry_min_wait": 2,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex",
+    "webp_quality": 85
+  },
+  "dry_run": false,
+  "environment": {
+    "cwd": "/Users/anshengyo/.cc-switch/skills/m2c-pipeline",
+    "google_application_credentials": "/Users/anshengyo/.config/gcp/credentials/m2c-pipeline-adc-317.json",
+    "pid": 12499,
+    "python_executable": "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/bin/python",
+    "python_version": "3.11.12"
+  },
+  "error": null,
+  "input": {
+    "absolute_path": "/private/tmp/retry_once_2026-03-06-redis-unlink-cache-cleanup_66.md",
+    "exists": true,
+    "path": "/tmp/retry_once_2026-03-06-redis-unlink-cache-cleanup_66.md",
+    "snapshot_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/_runs/run_20260417T145219_215020Z/input.md"
+  },
+  "run_id": "run_20260417T145219_215020Z",
+  "saved_image_paths": [
+    "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-06-redis-unlink-cache-cleanup/diagram_20260417_145327_00.webp"
+  ],
+  "started_at": "2026-04-17T14:52:19.215020+00:00",
+  "status": "completed",
+  "summary": {
+    "block_count": 1,
+    "dry_run_count": 0,
+    "failed_count": 0,
+    "saved_count": 1
+  },
+  "timings_ms": {
+    "extract": 0,
+    "total": 68963
+  }
+}

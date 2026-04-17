@@ -1,0 +1,29 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A["确定要清理的 key 模式"] --> B["SCAN 游标扫描，每批 100 个"]
+    B --> C{"还有更多 key?"}
+    C -->|是| D["UNLINK 批量删除当前批次"]
+    D --> B
+    C -->|否| E["清理完成，查看内存变化"]
+
+    style A fill:#e3f2fd,stroke:#333,color:#000
+    style E fill:#c8e6c9,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "确定要清理的 key 模式" → Chiikawa (吉伊) [initiator]
+- B "SCAN 游标扫描，每批 100 个" → Hachiware (小八)
+- C "还有更多 key?" → Usagi (乌萨奇) [decision]
+- D "UNLINK 批量删除当前批次" → Chiikawa (吉伊)
+- E "清理完成，查看内存变化" → Hachiware (小八)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.
