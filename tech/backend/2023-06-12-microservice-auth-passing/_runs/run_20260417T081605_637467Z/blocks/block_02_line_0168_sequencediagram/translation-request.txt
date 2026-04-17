@@ -1,0 +1,33 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: sequencediagram
+
+```mermaid
+sequenceDiagram
+    participant C as 客户端
+    participant G as API 网关
+    participant Auth as 认证服务
+    participant Biz as 业务服务
+
+    C->>Auth: 1. POST /auth/login {username, password}
+    Auth->>Auth: 2. 验证凭证，生成 JWT
+    Auth-->>C: 3. 返回 {accessToken, refreshToken}
+    Note over C: 客户端存储令牌
+
+    C->>G: 4. GET /api/orders (Authorization: Bearer <JWT>)
+    G->>G: 5. 解析并验证 JWT 签名
+    G->>G: 6. 检查 JWT 是否过期
+    G->>Biz: 7. 转发请求 + 用户上下文
+    Biz->>Biz: 8. 检查用户权限
+    Biz-->>C: 9. 返回业务数据
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- login "username, password" → Chiikawa (吉伊) [initiator]
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

@@ -1,0 +1,111 @@
+Chiikawa official manga style educational illustration, 16:9, explaining data processing strategies.
+
+=== TITLE ===
+"数据处理策略 (Data Processing Strategies)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Mind map with central idea branching into multiple strategies.
+
+Background: Soft gradient cream (#FFF8E7) to sky-blue (#E0F7FA), minimal scattered pastel stars and bubbles
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊), the small white marshmallow.
+- Chiikawa, with dot eyes and pink blush, is sweating nervously while looking at a huge pile of papers labeled "百万数据 (Million Data)".
+- Chiikawa holds a tiny calculator.
+Visual: A central node representing a server with data flowing in.
+Label: "百万数据处理 (Million Data Processing)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "这么多数据，怎么办呀… (So much data, what should I do…)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八), the blue-marked cat.
+- Hachiware, with blue markings and a calm expression, is pointing to a branching path diagram.
+- Hachiware holds a clipboard with different query options.
+Visual: Branching paths from the central node representing query strategies.
+Label: "查询策略 (Query Strategy)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "别担心吉伊！我们可以选择不同的查询策略！(Don't worry, Chiikawa! We can choose different query strategies!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇), the beige rabbit.
+- Usagi, with long ears and wide eyes, is energetically pointing to an export icon.
+- Usagi holds a USB drive.
+Visual: Branching path from the central node representing export strategies.
+Label: "导出策略 (Export Strategy)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "导出！导出！不同的导出方法！(Export! Export! Different export methods!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊), the small white marshmallow.
+- Chiikawa, with dot eyes and pink blush, is reading a book.
+- Chiikawa is sitting on a stack of neatly organized papers.
+Visual: A node representing the conventional method of splitting into pages for easier management.
+Label: "常规分页 (Regular Pagination)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "分页之后，看起来容易多了。(After pagination, it looks much easier.)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八), the blue-marked cat.
+- Hachiware, with blue markings and a calm expression, is standing near a flowing river of data.
+- Hachiware holds a small fishing net, metaphorically catching data.
+Visual: A node showing data flowing like a stream.
+Label: "流式查询 (Streaming Query)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "流式查询可以处理大量实时数据。(Streaming queries can handle large amounts of real-time data.)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇), the beige rabbit.
+- Usagi, with long ears and wide eyes, is looking through a magnifying glass at a complex data structure.
+- Usagi holds a map with a marked path.
+Visual: A node showing a cursor navigating through a database.
+Label: "游标查询 (Cursor Query)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "游标！一步一步地查找数据！(Cursor! Find data step by step!)"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊), the small white marshmallow.
+- Chiikawa, with dot eyes and pink blush, is holding a spreadsheet icon.
+- Chiikawa is wearing glasses and looking at a computer screen.
+Visual: A node showing an Excel icon.
+Label: "EasyExcel" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "EasyExcel 可以简化导出流程。(EasyExcel can simplify the export process.)"
+
+[CONTENT_SECTION_8]
+Character: Hachiware (小八), the blue-marked cat.
+- Hachiware, with blue markings and a calm expression, is organizing multiple spreadsheets into folders.
+- Hachiware is stacking the spreadsheets neatly.
+Visual: A node showing multiple spreadsheets being written into different sheets.
+Label: "分批写入多Sheet (Batch Write to Multiple Sheets)" — inside a semi-transparent cloud-like blob
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "将数据分批写入不同的Sheet，更易于管理。(Writing data in batches to different sheets makes it easier to manage.)"
+
+=== KEY CONCEPTS ===
+8 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "百万数据处理 (Million Data Processing)": 处理大量数据的挑战 (The challenge of handling large amounts of data).
+Box 2: "查询策略 (Query Strategy)": 选择合适的查询方法 (Choosing the right query method).
+Box 3: "导出策略 (Export Strategy)": 选择合适的导出方法 (Choosing the right export method).
+Box 4: "常规分页 (Regular Pagination)": 将数据分成小块 (Dividing data into smaller chunks).
+Box 5: "流式查询 (Streaming Query)": 处理实时数据流 (Handling real-time data streams).
+Box 6: "游标查询 (Cursor Query)": 逐步访问数据 (Accessing data step by step).
+Box 7: "EasyExcel": 简化Excel导出 (Simplifying Excel export).
+Box 8: "分批写入多Sheet (Batch Write to Multiple Sheets)": 批量写入数据到多个表格 (Batch writing data to multiple sheets).
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Helpful, educational, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

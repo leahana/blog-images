@@ -1,0 +1,45 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    subgraph SG1["第一层：本地防护"]
+        A[pre-commit Hook] --> B[扫描暂存文件]
+        C[pre-push Hook] --> D[全量扫描 + 图片 URL 检查]
+    end
+    subgraph SG2["第二层：CI 防护"]
+        E[GitHub Actions] --> F[check:secrets 阻断构建]
+    end
+    subgraph SG3["第三层：依赖防护"]
+        G[Dependabot] --> H[自动更新依赖版本]
+    end
+
+    SG1 --> SG2
+    SG2 --> SG3
+
+    style A fill:#e3f2fd
+    style C fill:#e3f2fd
+    style E fill:#ffcdd2
+    style G fill:#c8e6c9
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- SG1 "第一层：本地防护" → Chiikawa (吉伊) [initiator]
+- A "pre-commit Hook" → Hachiware (小八)
+- B "扫描暂存文件" → Usagi (乌萨奇)
+- C "pre-push Hook" → Chiikawa (吉伊)
+- D "全量扫描 + 图片 URL 检查" → Hachiware (小八)
+- SG2 "第二层：CI 防护" → Usagi (乌萨奇)
+- E "GitHub Actions" → Chiikawa (吉伊)
+- F "check:secrets 阻断构建" → Hachiware (小八)
+- SG3 "第三层：依赖防护" → Usagi (乌萨奇)
+- G "Dependabot" → Chiikawa (吉伊)
+- H "自动更新依赖版本" → Hachiware (小八)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

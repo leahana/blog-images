@@ -1,0 +1,31 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A["矩阵需要序列化"] --> B{"元素数量?"}
+    B -->|"< 10,000 个"| C["JSON 文本可用"]
+    B -->|">= 10,000 个"| D{"需要跨语言?"}
+    D -->|"需要"| E["MessagePack / Protobuf"]
+    D -->|"不需要"| F["Base64 二进制编码 ✅"]
+
+    style C fill:#fff9c4,stroke:#333,color:#000
+    style E fill:#bbdefb,stroke:#333,color:#000
+    style F fill:#c8e6c9,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "矩阵需要序列化" → Chiikawa (吉伊) [initiator]
+- B "元素数量?" → Hachiware (小八) [decision]
+- C "JSON 文本可用" → Usagi (乌萨奇)
+- D "需要跨语言?" → Hachiware (小八) [decision]
+- E "MessagePack / Protobuf" → Chiikawa (吉伊)
+- F "Base64 二进制编码 ✅" → Hachiware (小八)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

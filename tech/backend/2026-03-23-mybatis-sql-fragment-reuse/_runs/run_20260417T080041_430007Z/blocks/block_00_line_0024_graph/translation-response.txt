@@ -1,0 +1,83 @@
+ASPECT_RATIO: 4:3
+
+Chiikawa official manga style educational illustration, 4:3, explaining SQL query relationships.
+
+=== TITLE ===
+"SQL查询关系 (SQL Query Relationships)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Hierarchical flowchart showing dependencies in SQL queries.
+
+Background: Soft gradient cream (#FFF8E7) to light-cyan (#E0FFFF), minimal scattered star shapes
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the little white marshmallow creature with dot eyes and pink blush, looks determined as he points to a SQL database table.
+- He holds a tiny SQL database icon.
+Visual: Green-filled database table icon, labeled "sql id=Base_Column".
+Label: "sql id=Base_Column" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "这个是基础列！(This is the base column!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat with a clipboard, examines the base column definition.
+- He has a pen in his paw and a thoughtful expression.
+Visual: An arrow leading from the "Base_Column" table to Hachiware, who is annotating a document with "include refid".
+Label: "include refid" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "这里需要包含引用ID。(We need to include the reference ID here.)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the beige rabbit with long ears, jumps excitedly with a list in paw.
+- He’s energetic and points to the "selectAll" query.
+Visual: An arrow leading from the "include refid" section to Usagi, with "selectAll" query listed.
+Label: "selectAll" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "selectAll！嗷呜呜呜！(selectAll! Awoo oooo!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white creature, cautiously selects a specific item by ID.
+- He looks focused.
+Visual: An arrow leading from "include refid" to Chiikawa, who is selecting a specific ID.
+Label: "selectById" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "按ID选择… (Select by ID...)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, sets a condition for the selection, looking helpful.
+- He holds a magnifying glass over the query.
+Visual: An arrow leading from "include refid" to Hachiware, who is setting a selection condition.
+Label: "selectByCondition" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "根据条件选择。(Select based on condition.)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "Base_Column: 基础列定义 (Base_Column: Basic column definition)"
+Box 2: "include refid: 包含引用ID (include refid: Include reference ID)"
+Box 3: "selectAll: 选择所有数据 (selectAll: Select all data)"
+Box 4: "selectById: 按ID选择数据 (selectById: Select data by ID)"
+Box 5: "selectByCondition: 根据条件选择数据 (selectByCondition: Select data by condition)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Cheerful, educational, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, to illustrate SQL query dependencies

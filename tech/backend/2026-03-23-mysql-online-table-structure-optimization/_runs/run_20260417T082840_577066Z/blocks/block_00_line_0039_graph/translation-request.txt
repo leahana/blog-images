@@ -1,0 +1,34 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A["阶段一：字段长度分析"] --> B["评估差异：识别冗余字段"]
+    B --> C{"有优化空间?"}
+    C -->|"是"| D["阶段二：生成 ALTER DDL"]
+    C -->|"否"| G["归档分析报告"]
+    D --> E["Code Review：DBA 确认目标长度"]
+    E --> F["执行变更：低峰期 + 提前备份"]
+    F --> G
+
+    style A fill:#e3f2fd,stroke:#333,color:#000
+    style G fill:#c8e6c9,stroke:#333,color:#000
+    style C fill:#fff9c4,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "阶段一：字段长度分析" → Chiikawa (吉伊) [initiator]
+- B "评估差异：识别冗余字段" → Hachiware (小八)
+- C "有优化空间?" → Usagi (乌萨奇) [decision]
+- D "阶段二：生成 ALTER DDL" → Chiikawa (吉伊)
+- G "归档分析报告" → Hachiware (小八)
+- E "Code Review：DBA 确认目标长度" → Usagi (乌萨奇)
+- F "执行变更：低峰期 + 提前备份" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

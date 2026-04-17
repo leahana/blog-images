@@ -1,0 +1,12 @@
+graph TD
+    A["阶段一：字段长度分析"] --> B["评估差异：识别冗余字段"]
+    B --> C{"有优化空间?"}
+    C -->|"是"| D["阶段二：生成 ALTER DDL"]
+    C -->|"否"| G["归档分析报告"]
+    D --> E["Code Review：DBA 确认目标长度"]
+    E --> F["执行变更：低峰期 + 提前备份"]
+    F --> G
+
+    style A fill:#e3f2fd,stroke:#333,color:#000
+    style G fill:#c8e6c9,stroke:#333,color:#000
+    style C fill:#fff9c4,stroke:#333,color:#000

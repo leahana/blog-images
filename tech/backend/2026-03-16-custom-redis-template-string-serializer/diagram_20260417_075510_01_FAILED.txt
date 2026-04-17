@@ -1,0 +1,86 @@
+# Failed image prompt — block 1
+# Diagram type: graph
+# Source line: 111
+
+## Original Mermaid Source
+
+```mermaid
+graph TD
+    A["业务代码: objectMapper.writeValueAsString(user)"] -->|"得到 JSON 字符串"| B["{\"name\":\"张三\"}"]
+    B -->|"传入 redisTemplate.set()"| C{"Value 序列化器?"}
+    C -->|"Jackson2JsonRedisSerializer"| D["再次序列化: 外加引号+转义"]
+    C -->|"StringRedisSerializer"| E["原样写入: 纯字节拷贝"]
+
+    style D fill:#ffccbc,stroke:#333,color:#000
+    style E fill:#c8e6c9,stroke:#333,color:#000
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 4:3, explaining Redis serialization choices.
+
+=== TITLE ===
+"Redis 序列化选择" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: "do vs don't" split panel illustrating two different serialization paths
+
+Background: Soft gradient cream (#FFF8E7) to light blue (#E0F7FA), minimal decorative stars and bubbles
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa is typing code on a computer, looking determined.
+- The computer screen shows `objectMapper.writeValueAsString(user)`.
+Visual: A speech bubble pointing from Chiikawa's computer screen to a JSON string.
+Label: "业务代码: objectMapper.writeValueAsString(user)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "得到 JSON 字符串 (Get the JSON string)!"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware is holding a clipboard and pointing to two different paths with a small pointer. The clipboard has a question mark written on it. Hachiware's blue fur parts at the forehead center in a clean inverted-V split revealing the white face beneath.
+- The paths lead to two different options.
+Visual: Two arrows pointing to different serialization methods.
+Label: "Value 序列化器?" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, no hard border, soft edges blending into the background)
+Dialogue: "选择哪种序列化方式呢 (Which serialization method to choose)?"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi is jumping excitedly, holding a string with escaped quotes.
+- Usagi's long ears are flopping around, showing off its energy.
+Visual: A string with escaped quotes is being serialized.
+Label: "再次序列化: 外加引号+转义" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, no hard border, soft edges blending into the background)
+Dialogue: "哇！又序列化了一次 (Wow! Serialized again)!"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, holding a memory stick, is copying raw bytes with a determined expression.
+- Chiikawa's marshmallow body has a tiny determined frown.
+Visual: A memory stick with data being copied.
+Label: "原样写入: 纯字节拷贝" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, no hard border, soft edges blending into the background)
+Dialogue: "直接拷贝，原汁原味 (Direct copy, original flavor)!"
+
+=== KEY CONCEPTS ===
+4 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "JSON 字符串 (JSON String)"
+Box 2: "Jackson2JsonRedisSerializer: 再次序列化，外加引号和转义 (Jackson2JsonRedisSerializer: Serialized again, with added quotes and escaping)"
+Box 3: "StringRedisSerializer: 原样写入 (StringRedisSerializer: Write as is)"
+Box 4: "序列化选择影响 Redis 存储格式 (Serialization choice affects Redis storage format)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, helpful, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, explaining Redis serialization choices

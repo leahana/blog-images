@@ -1,0 +1,11 @@
+graph LR
+    A["pyenv<br/>版本仓库"] --> B["Python 3.x<br/>解释器二进制"]
+    B --> C["venv<br/>隔离花盆"]
+    C --> D[".venv/<br/>项目 Lib 空间"]
+    E["Poetry<br/>依赖 + 构建"] --> C
+
+    style A fill:#bbdefb,stroke:#333,color:#000
+    style B fill:#c8e6c9,stroke:#333,color:#000
+    style C fill:#c8e6c9,stroke:#333,color:#000
+    style D fill:#ffccbc,stroke:#333,color:#000
+    style E fill:#bbdefb,stroke:#333,color:#000

@@ -1,0 +1,78 @@
+ASPECT_RATIO: 4:3
+
+Chiikawa official manga style educational illustration, 4:3, explaining Redis key cleanup.
+
+=== TITLE ===
+"Redis Key 清理流程" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Circular lifecycle flow representing the Redis key cleanup process
+
+Background: Soft gradient cream (#FFF8E7) to sky-blue (#B0E2FF), minimal sparkling stars
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks determined while pointing at a screen.
+- Holding a magnifying glass.
+Visual: A computer screen showing various key patterns.
+Label: "确定要清理的 key 模式 (Determine Key Pattern to Clean)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "要清理哪些 Key 呢… (Which keys should I clean up...)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is scanning a large pile of keys with a scanner.
+- Hachiware has a serious expression.
+Visual: A conveyor belt carrying keys, being scanned by a device.
+Label: "SCAN 游标扫描，每批 100 个 (SCAN Cursor Scan, 100 per Batch)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "开始扫描啦！(Starting the scan!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the long-eared rabbit, jumps excitedly, holding a question mark.
+- Eyes wide with anticipation.
+Visual: A fork in the road, one path leading to more keys, the other to completion.
+Label: "还有更多 key? (Any More Keys?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "呜哇！还有吗？(Uwa! Are there more?)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the little white marshmallow, operates a lever.
+- Sweaty and working hard.
+Visual: A large lever connected to a shredder destroying keys.
+Label: "UNLINK 批量删除当前批次 (UNLINK Batch Delete Current Batch)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "删除！删除！(Delete! Delete!)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, checks a memory usage graph.
+- Smiling with relief.
+Visual: A graph showing memory usage decreasing over time.
+Label: "清理完成，查看内存变化 (Cleanup Complete, Check Memory Changes)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "内存减少了！(Memory reduced!)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "确定 Key 模式 (Determine Key Pattern)"
+Box 2: "SCAN 命令 (SCAN Command)"
+Box 3: "游标扫描 (Cursor Scan)"
+Box 4: "UNLINK 删除 (UNLINK Delete)"
+Box 5: "内存监控 (Memory Monitoring)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, explaining the Redis key cleanup process

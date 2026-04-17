@@ -1,0 +1,139 @@
+# Failed image prompt — block 0
+# Diagram type: graph
+# Source line: 23
+
+## Original Mermaid Source
+
+```mermaid
+graph TD
+    A[Step1 容量规划] --> B[Step2 GC 选型]
+    B --> C[Step3 分区比例]
+    C --> D[Step4 栈内存]
+    D --> E[Step5 对象年龄]
+    E --> F[Step6 大对象阈值]
+    F --> G[Step7 CMS 参数优化]
+    G --> H[Step8 OOM dump 与 GC 日志]
+
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#c8e6c9
+    style D fill:#e3f2fd
+    style E fill:#fff3e0
+    style F fill:#c8e6c9
+    style G fill:#f3e5f5
+    style H fill:#ffcdd2
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 16:9, explaining JVM调优 (JVM Tuning).
+
+=== TITLE ===
+"JVM 调优流程 (JVM Tuning Process)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Winding roadmap journey, with each step represented as a cloud-like platform
+
+Background: Soft gradient cream (#FFF8E7) to sky-blue (#B0E2FF), minimal fluffy clouds
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks determined, holding a tiny surveyor's tape measure.
+- Measuring tape, tiny construction helmet
+Visual: Blue cloud platform labelled "Step1", showing a miniature city skyline in the distance.
+Label: "Step1 容量规划 (Step1 Capacity Planning)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa says: "要好好规划一下！(Let's plan this carefully!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, thoughtfully examines a flow chart on a clipboard.
+- Clipboard with GC algorithm flowchart, magnifying glass
+Visual: Beige cloud platform labelled "Step2", with different garbage collection algorithm icons floating nearby.
+Label: "Step2 GC 选型 (Step2 GC Selection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware says: "选择合适的GC算法很重要 (Choosing the right GC algorithm is very important.)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the light-beige rabbit, enthusiastically adjusts a set of dials and levers on a control panel.
+- Control panel with knobs, a tiny wrench
+Visual: Green cloud platform labelled "Step3", showing pie charts representing memory allocation.
+Label: "Step3 分区比例 (Step3 Partition Ratio)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi shouts: "调整！调整！(Adjust! Adjust!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, wearing a tiny headset, examines a memory stack diagram.
+- Headset, memory stack diagram
+Visual: Blue cloud platform labelled "Step4", showing a simplified stack memory visualization.
+Label: "Step4 栈内存 (Step4 Stack Memory)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa says: "栈内存的大小要合适 (The stack memory size must be appropriate.)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, holding a pointer, explains an object age distribution graph.
+- Pointer, object age graph
+Visual: Beige cloud platform labelled "Step5", showing an age distribution graph.
+Label: "Step5 对象年龄 (Step5 Object Age)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware says: "理解对象年龄有助于优化GC (Understanding object age helps optimize GC.)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi sets a large object size limit with oversized number sliders.
+- Oversized sliders with big numbers, enthusiastic pose
+Visual: Green cloud platform labelled "Step6", showing different sized objects representing memory use.
+Label: "Step6 大对象阈值 (Step 6 Large Object Threshold)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi shouts: "大！大！(Big! Big!)"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊)
+- Chiikawa cautiously adjusts CMS parameters on a complex interface.
+- Intricate CMS parameter interface
+Visual: Purple cloud platform labelled "Step7", with various CMS tuning knobs and dials.
+Label: "Step7 CMS 参数优化 (Step7 CMS Parameter Optimization)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa says: "小心调整这些参数… (Adjust these parameters carefully...)"
+
+[CONTENT_SECTION_8]
+Character: Hachiware (小八)
+- Hachiware reviews a GC log on a laptop.
+- Laptop displaying GC log, serious expression
+Visual: Pink cloud platform labelled "Step8", showing a laptop screen displaying GC logs and an OOM dump file icon.
+Label: "Step8 OOM dump 与 GC 日志 (Step8 OOM Dump & GC Logs)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware says: "分析日志是关键 (Analyzing the logs is key.)"
+
+=== KEY CONCEPTS ===
+8 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "容量规划 (Capacity Planning)" - 确定JVM的初始和最大堆大小 (Determine the JVM's initial and maximum heap size)
+Box 2: "GC 选型 (GC Selection)" - 选择合适的垃圾收集器 (Choose the appropriate garbage collector)
+Box 3: "分区比例 (Partition Ratio)" - 设置年轻代和老年代的比例 (Set the ratio of young generation to old generation)
+Box 4: "栈内存 (Stack Memory)" - 配置合适的栈大小 (Configure appropriate stack size)
+Box 5: "对象年龄 (Object Age)" - 监控和调整对象在年轻代的存活时间 (Monitor and adjust the survival time of objects in the young generation)
+Box 6: "大对象阈值 (Large Object Threshold)" - 设置直接进入老年代的对象大小 (Set the object size that directly enters the old generation)
+Box 7: "CMS 参数优化 (CMS Parameter Optimization)" - 调整CMS收集器的参数以获得最佳性能 (Adjust the parameters of the CMS collector for optimal performance)
+Box 8: "OOM dump 与 GC 日志 (OOM Dump & GC Logs)" - 分析内存溢出转储和垃圾收集日志以诊断问题 (Analyze memory overflow dumps and garbage collection logs to diagnose problems)
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Helpful, Informative, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

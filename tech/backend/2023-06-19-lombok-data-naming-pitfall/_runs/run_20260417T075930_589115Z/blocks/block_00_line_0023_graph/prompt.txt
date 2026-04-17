@@ -1,0 +1,91 @@
+Chiikawa official manga style educational illustration, 16:9, explaining field mapping.
+
+=== TITLE ===
+"字段映射流程" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Fishbone cause-effect diagram, with the initial "字段" node acting as the head, splitting into two paths, and converging to a final "失败" state.
+
+Background: Soft gradient cream (#FFF8E7) to light-cyan (#E0FFFF), minimal scattered star stickers and faint sparkles.
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+Character: Chiikawa (吉伊)
+- Chiikawa (small, round, white marshmallow body, dot eyes) stands at the start of the diagram, looking slightly confused but determined.
+- Chiikawa holds a magnifying glass, inspecting a database column name written on a small card.
+Visual: A database column icon beside Chiikawa.
+Label: "字段: nMetaType" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "nMetaType 字段，要怎么映射呢？ (nMetaType field, how do I map it?)"
+
+Character: Hachiware (小八)
+- Hachiware (white cat with dusty-blue ears and head markings) is holding a clipboard with code snippets on it.
+- Hachiware is pointing to a line of code with the `@Data` annotation.
+Visual: A code snippet icon showing `@Data`.
+Label: "Lombok @Data" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "用 Lombok 的 @Data 注解可以自动生成 getter/setter (Using Lombok's @Data annotation can automatically generate getter/setter)"
+
+Character: Usagi (乌萨奇)
+- Usagi (tall light-beige rabbit) is energetically gesturing towards a configuration file icon, holding a small hammer.
+- Usagi has a determined look on its face.
+Visual: A configuration file icon representing MyBatis configuration.
+Label: "MyBatis PropertyNamer" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "MyBatis PropertyNamer 负责转换字段名称! (MyBatis PropertyNamer is responsible for converting field names!)"
+
+Character: Chiikawa (吉伊)
+- Chiikawa (small, round, white marshmallow body, dot eyes) is now looking at a generated getter method.
+- Chiikawa is examining a line of code.
+Visual: A method icon showing `getNMetaType()`.
+Label: "getNMetaType()" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "Lombok 生成了 getNMetaType 方法 (Lombok generated the getNMetaType method)"
+
+Character: Hachiware (小八)
+- Hachiware (white cat with dusty-blue ears and head markings) checks another getter method on the config.
+- Hachiware adjusts glasses and examines the method name.
+Visual: A method icon showing `getnMetaType()`.
+Label: "getnMetaType()" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "MyBatis PropertyNamer 转换成了 getnMetaType (MyBatis PropertyNamer converted it to getnMetaType)"
+
+Character: Usagi (乌萨奇)
+- Usagi (tall light-beige rabbit) is pointing towards a property mapping.
+- Usagi looks confident.
+Visual: An arrow connecting the getter method to a database column.
+Label: "映射属性: NMetaType" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "成功映射 NMetaType 属性! (Successfully mapped the NMetaType property!)"
+
+Character: Chiikawa (吉伊)
+- Chiikawa (small, round, white marshmallow body, dot eyes) is also pointing towards a property mapping.
+- Chiikawa looks slightly worried.
+Visual: An arrow connecting the getter method to a database column.
+Label: "映射属性: nMetaType" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "也映射了 nMetaType 属性 (Also mapped the nMetaType property)"
+
+Character: Hachiware (小八)
+- Hachiware (white cat with dusty-blue ears and head markings) is facepalming.
+- Hachiware is surrounded by error messages.
+Visual: A big red "X" icon.
+Label: "❌ 字段映射失败" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "字段映射失败了… (Field mapping failed...)"
+
+=== KEY CONCEPTS ===
+4 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "字段 (Field)": 数据库中的列 (Column in the database)"
+Box 2: "Lombok @Data": 自动生成 getter/setter 方法 (Automatically generate getter/setter methods)"
+Box 3: "MyBatis PropertyNamer": 转换字段名称 (Convert field names)"
+Box 4: "字段映射失败 (Field Mapping Failure)": 属性名称不匹配 (Property name mismatch)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, slightly comedic, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, explaining field mapping process in a fun and accessible way

@@ -1,0 +1,72 @@
+Traceback (most recent call last):
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/m2c_pipeline/pipeline.py", line 152, in process_block
+    image_bytes = painter.paint(image_prompt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/m2c_pipeline/painter.py", line 95, in paint
+    parts = self._call_gemini(image_prompt.prompt_text, image_prompt.aspect_ratio)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/m2c_pipeline/painter.py", line 129, in _call_gemini
+    response = self._get_client().models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/models.py", line 6276, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/models.py", line 4730, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/_api_client.py", line 1332, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.12/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/_api_client.py", line 1309, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/errors.py", line 155, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/Users/anshengyo/.cc-switch/skills/m2c-pipeline/venv/lib/python3.11/site-packages/google/genai/errors.py", line 184, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}

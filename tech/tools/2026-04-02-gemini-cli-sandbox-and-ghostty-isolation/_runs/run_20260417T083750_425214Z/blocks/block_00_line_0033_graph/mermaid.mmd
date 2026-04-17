@@ -1,0 +1,10 @@
+graph TD
+    A[准备运行 AI 工具] --> B{AI 是否需要执行 Shell 命令?}
+    B -- 否 --> C[普通对话模式: 无需沙盒]
+    B -- 是 --> D{任务涉及哪些范围?}
+    D -- 仅限 UI/配置测试 --> E[使用 Ghostty Sandbox]
+    D -- 涉及文件修改/安装依赖 --> F{是否信任生成内容?}
+    F -- 100% 信任 --> G[直接运行]
+    F -- 有潜在风险/大规模重构 --> H[开启 Gemini CLI Sandbox: gemini -s]
+    H --> I{需要一键撤回?}
+    I -- 是 --> J[结合 Git Worktree: gemini -s -w]

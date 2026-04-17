@@ -1,0 +1,10 @@
+graph TD
+    A["矩阵需要序列化"] --> B{"元素数量?"}
+    B -->|"< 10,000 个"| C["JSON 文本可用"]
+    B -->|">= 10,000 个"| D{"需要跨语言?"}
+    D -->|"需要"| E["MessagePack / Protobuf"]
+    D -->|"不需要"| F["Base64 二进制编码 ✅"]
+
+    style C fill:#fff9c4,stroke:#333,color:#000
+    style E fill:#bbdefb,stroke:#333,color:#000
+    style F fill:#c8e6c9,stroke:#333,color:#000

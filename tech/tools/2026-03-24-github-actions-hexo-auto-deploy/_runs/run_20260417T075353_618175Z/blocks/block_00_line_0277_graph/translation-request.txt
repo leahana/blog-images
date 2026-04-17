@@ -1,0 +1,33 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A[pnpm install - 根项目] --> B[安装 Hexo 及插件]
+    C[cd themes/kratos-rebirth] --> D[pnpm install - 主题]
+    D --> E[pnpm run build - 主题 JS/CSS]
+    B --> F[pnpm run build - hexo generate]
+    E --> F
+    F --> G[./public 静态文件]
+
+    style A fill:#e3f2fd
+    style C fill:#fff3e0
+    style G fill:#c8e6c9
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "pnpm install - 根项目" → Chiikawa (吉伊) [initiator]
+- B "安装 Hexo 及插件" → Hachiware (小八)
+- C "cd themes/kratos-rebirth" → Usagi (乌萨奇)
+- D "pnpm install - 主题" → Chiikawa (吉伊)
+- E "pnpm run build - 主题 JS/CSS" → Hachiware (小八)
+- F "pnpm run build - hexo generate" → Usagi (乌萨奇)
+- G "./public 静态文件" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

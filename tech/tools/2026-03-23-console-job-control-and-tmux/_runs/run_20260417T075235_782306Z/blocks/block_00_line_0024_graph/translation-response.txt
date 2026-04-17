@@ -1,0 +1,113 @@
+ASPECT_RATIO: 16:9
+
+Chiikawa official manga style educational illustration, 16:9, explaining process control.
+
+=== TITLE ===
+"进程控制 (Process Control)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Winding roadmap journey illustrating a decision tree
+
+Background: Soft gradient cream (#FFF8E7) to sky-blue (#D0E7FF), minimal fluffy clouds
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with pink blush marks (三), is typing at a miniature computer, looking slightly stressed.
+- Small keyboard and monitor.
+Visual: A command prompt window with a blinking cursor.
+Label: "前台运行 command (Foreground command)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "好紧张… (So nervous...)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-eared cat, stands with a clipboard and pen, thoughtfully considering the situation. His fur splits in a clean inverted-V shape at his forehead.
+- Clipboard with options listed.
+Visual: A fork in the road with different paths leading away.
+Label: "你怎么处理 (How do you handle it?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "让我想想… (Let me think...)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears, is energetically pressing a large red button labelled "Ctrl+C".
+- A large, cartoonish "STOP" sign appears.
+Visual: An explosion of confetti and stars.
+Label: "终止进程 (Terminate process)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "喔嗨哟！(O-hay-o!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with pink blush marks (三), looks confused and is holding the "Ctrl+Z" keys.
+- A question mark hovers over Chiikawa's head.
+Visual: A pause symbol.
+Label: "挂起进程 (Suspend process)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "咦？(Eh?)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-eared cat with the inverted-V fur split, is pointing towards a background process icon.
+- A small icon representing a background task.
+Visual: An arrow indicating movement to the background.
+Label: "bg 后台继续 (bg continue in background)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "在后台运行 (Run in the background)."
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears, is tied to a shell icon with a rope. He looks annoyed.
+- A stylized shell icon.
+Visual: A rope binding Usagi to the shell.
+Label: "仍绑定当前 shell (Still bound to current shell)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "……"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with pink blush marks (三), is holding a tmux icon, looking relieved.
+- A stylized tmux icon.
+Visual: A window splitting into multiple panes.
+Label: "会话可分离 (Session can be detached)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "太好了！(Great!)"
+
+[CONTENT_SECTION_8]
+Character: Hachiware (小八)
+- Hachiware, the blue-eared cat with the inverted-V fur split, is happily reconnecting a cable to a server.
+- A server rack with network cables.
+Visual: A reconnection icon.
+Label: "断线后仍可重连 (Can still reconnect after disconnection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "没问题! (No problem!)"
+
+=== KEY CONCEPTS ===
+8 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "前台运行 (Foreground)"
+Box 2: "终止 (Terminate)"
+Box 3: "挂起 (Suspend)"
+Box 4: "后台 (Background)"
+Box 5: "Ctrl+C"
+Box 6: "Ctrl+Z"
+Box 7: "tmux"
+Box 8: "会话分离 (Session Detachment)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, helpful, cute but educational
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

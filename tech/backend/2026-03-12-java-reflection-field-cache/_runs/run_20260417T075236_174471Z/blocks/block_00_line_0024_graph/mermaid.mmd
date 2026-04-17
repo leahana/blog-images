@@ -1,0 +1,9 @@
+graph LR
+    A[业务代码] -->|getFields| B{缓存命中?}
+    B -->|是| C[直接返回 Field 数组]
+    B -->|否| D[反射获取 + 存入缓存]
+    D --> C
+
+    style B fill:#fff9c4
+    style C fill:#c8e6c9
+    style D fill:#ffccbc

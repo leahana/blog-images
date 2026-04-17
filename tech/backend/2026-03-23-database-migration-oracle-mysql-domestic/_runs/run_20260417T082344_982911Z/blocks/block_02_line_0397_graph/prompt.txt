@@ -1,0 +1,74 @@
+Chiikawa official manga style educational illustration, 4:3, explaining 数据库迁移策略 (Database Migration Strategy).
+
+=== TITLE ===
+"数据库迁移四阶段" (Four Stages of Database Migration) — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Horizontal four-step process flow with annotation callouts
+
+Background: Soft gradient cream (#FFF8E7) to sky-blue (#BDE0FE), minimal fluffy clouds and star sprites
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is carefully holding two identical miniature database server models. He looks nervous, glancing between them.
+- Two miniature database server models
+Visual: Two databases in sync, both labelled "Old"
+Label: "阶段1：双写 (Phase 1: Dual Write)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "写入同时落两个库，以老库为准 (Write to both databases simultaneously, using the old database as the source of truth)."
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue cat, stands confidently holding a clipboard and pointing to a database diagram. He looks calm and collected.
+- Clipboard with a database diagram
+Visual: A database icon labelled "New" receiving data, with an arrow pointing from the "Old" database.
+Label: "阶段2：读写分离 (Phase 2: Read-Write Separation)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "写入新库，读新库为主/老库兜底 (Write to the new database, read primarily from the new database, with the old database as a fallback)."
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the beige rabbit, is jumping excitedly, pointing towards a large, shiny new database server.
+- A large, shiny, new database server
+Visual: A large arrow pointing from the "Old" database to the "New" database, signifying the complete cutover.
+Label: "阶段3：完全切换 (Phase 3: Full Switchover)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "全部流量切到新库，老库只读保留 7 天 (All traffic switched to the new database, the old database retained as read-only for 7 days)."
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, waves goodbye to a faded database icon while looking relieved.
+- A small, faded database server icon.
+Visual: The "Old" database server is dimmed and slightly transparent.
+Label: "阶段4：老库下线 (Phase 4: Old Database Shutdown)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "确认无异常后下线老库 (Shutdown the old database after confirming no anomalies)."
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue cat, is checking a checklist on his clipboard with a satisfied expression.
+- Clipboard with a checklist, marked complete.
+Visual: A green checkmark next to the "Old" database icon.
+Label: "确认 (Confirmation)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "确认无误 (Confirmed Correct)"
+
+=== KEY CONCEPTS ===
+3 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "双写 (Dual Write)": 同时写入新老数据库 (Write to both old and new databases simultaneously.)
+Box 2: "读写分离 (Read-Write Separation)": 新库负责写入，读操作优先从新库，老库作为备份 (New database handles writes; reads primarily from the new database, with the old database as a backup.)
+Box 3: "完全切换 (Full Switchover)": 所有读写流量切换到新库 (All read and write traffic is switched to the new database.)
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, reassuring, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

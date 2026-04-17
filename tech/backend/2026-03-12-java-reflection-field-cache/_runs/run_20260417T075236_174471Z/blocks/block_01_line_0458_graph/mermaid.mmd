@@ -1,0 +1,11 @@
+graph TD
+    A[需要反射访问字段] --> B{性能要求?}
+    B -->|一般业务| C[缓存 Field 数组]
+    B -->|高频热点路径| D{有 getter/setter?}
+    B -->|极致性能| E[ReflectASM]
+    D -->|有| F[LambdaMetafactory]
+    D -->|无| C
+
+    style C fill:#c8e6c9
+    style F fill:#bbdefb
+    style E fill:#ffccbc

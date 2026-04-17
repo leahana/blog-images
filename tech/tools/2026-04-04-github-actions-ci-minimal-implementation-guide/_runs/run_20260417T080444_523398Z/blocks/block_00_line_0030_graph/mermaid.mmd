@@ -1,0 +1,7 @@
+graph TD
+    A["方案草图"] --> B["冻结 6 个必跑 job"]
+    B --> C["PR 校验可阻断"]
+    C --> D["Tag / 版本一致性"]
+    D --> E["main 血缘校验"]
+    E --> F["治理审计报警"]
+    F --> G["Generic Release"]

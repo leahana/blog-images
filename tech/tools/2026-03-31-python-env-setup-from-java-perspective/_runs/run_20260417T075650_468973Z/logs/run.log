@@ -1,0 +1,2 @@
+2026-04-17T15:57:40 [ERROR] M2CPipeline: Image generation failed for block 0: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
+2026-04-17T15:57:42 [ERROR] M2CPipeline: Image generation failed for block 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}

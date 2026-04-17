@@ -1,0 +1,155 @@
+# Failed image prompt — block 1
+# Diagram type: graph
+# Source line: 376
+
+## Original Mermaid Source
+
+```mermaid
+graph TD
+    subgraph SG1["第一层：本地防护"]
+        A[pre-commit Hook] --> B[扫描暂存文件]
+        C[pre-push Hook] --> D[全量扫描 + 图片 URL 检查]
+    end
+    subgraph SG2["第二层：CI 防护"]
+        E[GitHub Actions] --> F[check:secrets 阻断构建]
+    end
+    subgraph SG3["第三层：依赖防护"]
+        G[Dependabot] --> H[自动更新依赖版本]
+    end
+
+    SG1 --> SG2
+    SG2 --> SG3
+
+    style A fill:#e3f2fd
+    style C fill:#e3f2fd
+    style E fill:#ffcdd2
+    style G fill:#c8e6c9
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 4:3, explaining software security layers.
+
+=== TITLE ===
+"多层安全防护 (Multi-Layer Security)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Layered technology stack, with three distinct stacked sections representing the security layers
+
+Background: Soft gradient cream (#FFF8E7) to pale-sky-blue (#E1F5FE), minimal scattered cloud shapes
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with dot eyes and pink blush, looks determined, pointing upwards towards the first layer.
+- Holding a tiny shield.
+Visual: A stack of three distinct fluffy cloud layers. The first layer has coding symbols and file icons.
+Label: "第一层：本地防护 (First Layer: Local Protection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "我们要保护好代码！(We must protect the code well!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat with the inverted-V forehead fur split, is carefully examining a file.
+- Wearing a magnifying glass.
+Visual: A pre-commit hook icon resembling a small gate.
+Label: "pre-commit Hook" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "检查一下，没问题！(Let's check, no problem!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears and round eyes, jumps energetically while scanning files.
+- Wearing a detective hat.
+Visual: A magnifying glass icon over several files.
+Label: "扫描暂存文件 (Scan Staged Files)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "乌萨！扫描开始！(Usa! Scanning start!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with dot eyes and pink blush, looks serious.
+- Holding a checklist.
+Visual: A pre-push hook icon resembling a reinforced gate.
+Label: "pre-push Hook" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "推送前再检查一遍！(Check again before pushing!)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat with the inverted-V forehead fur split, meticulously checks URLs.
+- Holding a clipboard with a URL list.
+Visual: Multiple file icons with magnifying glasses and URL symbols.
+Label: "全量扫描 + 图片 URL 检查 (Full Scan + Image URL Check)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "确认所有链接都是安全的！(Confirm all links are safe!)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears and round eyes, points to the second layer.
+- Wearing construction helmet.
+Visual: The second cloud layer shows CI/CD pipeline icons.
+Label: "第二层：CI 防护 (Second Layer: CI Protection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "乌萨！持续集成保护！(Usa! Continuous integration protection!)"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with dot eyes and pink blush, activates a switch.
+- Pressing a big red button.
+Visual: A GitHub Actions logo.
+Label: "GitHub Actions" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "启动安全检查！(Start security check!)"
+
+[CONTENT_SECTION_8]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat with the inverted-V forehead fur split, stops a process.
+- Holding a stop sign.
+Visual: A "forbidden" symbol over a code block.
+Label: "check:secrets 阻断构建 (check:secrets Block Build)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "发现密钥泄露，构建终止！(Secret leakage detected, build terminated!)"
+
+[CONTENT_SECTION_9]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears and round eyes, shows the third layer.
+- Pointing to a dependency graph.
+Visual: The third cloud layer shows package icons and version numbers.
+Label: "第三层：依赖防护 (Third Layer: Dependency Protection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "乌萨！依赖保护！(Usa! Dependency protection!)"
+
+[CONTENT_SECTION_10]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow creature with dot eyes and pink blush, looks happy at the updated dependencies.
+- Waving.
+Visual: A Dependabot logo.
+Label: "Dependabot" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "依赖更新了！安全！(Dependencies updated! Safe!)"
+
+[CONTENT_SECTION_11]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat with the inverted-V forehead fur split, updates version numbers.
+- Typing on a keyboard.
+Visual: An arrow pointing upwards from an old version number to a new version number.
+Label: "自动更新依赖版本 (Automatically Update Dependency Versions)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "自动更新，保持最新！(Automatic update, keep it up to date!)"
+
+=== KEY CONCEPTS ===
+6 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "本地防护 (Local Protection): 在提交和推送前检查代码 (Check code before commit and push)"
+Box 2: "CI 防护 (CI Protection): 在持续集成过程中检查代码和密钥 (Check code and secrets during CI)"
+Box 3: "依赖防护 (Dependency Protection): 自动更新依赖以修复漏洞 (Automatically update dependencies to fix vulnerabilities)"
+Box 4: "pre-commit Hook: 提交前运行的脚本 (Script run before commit)"
+Box 5: "pre-push Hook: 推送前运行的脚本 (Script run before push)"
+Box 6: "GitHub Actions: GitHub 的 CI/CD 服务 (CI/CD service by GitHub)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, secure, and cute, highlighting multiple levels of protection
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

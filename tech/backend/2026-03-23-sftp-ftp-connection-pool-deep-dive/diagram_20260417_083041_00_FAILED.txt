@@ -1,0 +1,121 @@
+# Failed image prompt — block 0
+# Diagram type: graph
+# Source line: 24
+
+## Original Mermaid Source
+
+```mermaid
+graph TD
+    A["应用请求连接"] --> B{"池中有空闲连接?"}
+    B -->|"有"| C["取出并验证有效性"]
+    B -->|"无且未达上限"| D["创建新连接"]
+    B -->|"无且已达上限"| E["等待超时或报错"]
+    C -->|"有效"| F["返回给调用方"]
+    C -->|"失效"| D
+    D --> F
+    F --> G["使用完毕归还"]
+
+    style A fill:#bbdefb,stroke:#333,color:#000
+    style F fill:#c8e6c9,stroke:#333,color:#000
+    style E fill:#ffccbc,stroke:#333,color:#000
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 4:3, explaining 连接池工作原理 (Connection Pool Working Principle).
+
+=== TITLE ===
+"连接池工作流程 (Connection Pool Workflow)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Circular lifecycle flow
+
+Background: Soft gradient cream (#FFF8E7) to pastel sky-blue (#D0E7FF), minimal scattered star sparkles
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- The small white Chiikawa, with dot eyes and pink blush, is excitedly holding a tiny scroll labeled "请求 (Request)".
+- Chiikawa is hopping toward the connection pool.
+Visual: A tiny Chiikawa approaches a large gate representing the connection pool.
+Label: "应用请求连接 (Application Request Connection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "想要连接! (I want a connection!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- The blue-marked Hachiware, wearing a small headset, is monitoring the connection pool. He holds a clipboard.
+- Hachiware is calmly looking at the pool.
+Visual: An illustration of a connection pool with some connections available and some in use.
+Label: "池中有空闲连接? (Are there any free connections in the pool?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "让我看看... (Let me see...)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- The tall, beige Usagi is enthusiastically pulling out a connection.
+- Usagi is energetically testing the connection with a small multimeter.
+Visual: Usagi holding a connection and testing it with a multimeter.
+Label: "取出并验证有效性 (Retrieve and Validate)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "呜哇! (Uwa!)" *testing sounds*
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- The small white Chiikawa, with dot eyes and pink blush, is diligently creating a new connection.
+- Chiikawa is hammering a connection together from small parts.
+Visual: Chiikawa building a connection using tiny tools.
+Label: "创建新连接 (Create New Connection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "努力工作! (Working hard!)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- The blue-marked Hachiware, looking concerned, is watching a timer.
+- Hachiware is anxiously tapping his foot.
+Visual: A large hourglass with sand running low.
+Label: "等待超时或报错 (Wait for Timeout or Error)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "时间不多了! (Time is running out!)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- The tall, beige Usagi is happily handing over the connection.
+- Usagi is jumping for joy.
+Visual: Usagi handing the connection to a generic application icon.
+Label: "返回给调用方 (Return to Caller)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "やったー！(Yatta!)"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊)
+- The small white Chiikawa, looking satisfied, is taking back the connection.
+- Chiikawa is carefully storing the connection back in the pool.
+Visual: Chiikawa placing the connection back into the connection pool.
+Label: "使用完毕归还 (Return After Use)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "放回去! (Putting it back!)"
+
+=== KEY CONCEPTS ===
+3 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "连接池 (Connection Pool): 管理数据库连接的资源 (Manages database connection resources)"
+Box 2: "连接有效性 (Connection Validity): 验证连接是否可用 (Verifies if the connection is available)"
+Box 3: "超时 (Timeout): 等待连接的最大时间 (Maximum time to wait for a connection)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, Friendly, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

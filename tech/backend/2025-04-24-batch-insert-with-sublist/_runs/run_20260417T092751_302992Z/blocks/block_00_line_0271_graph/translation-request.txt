@@ -1,0 +1,36 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A[分批处理需求] --> B{Python 版本?}
+    B -->|≥ 3.12| C[使用 itertools.batched]
+    B -->|< 3.12| D{接受外部依赖?}
+    D -->|是| E[使用 more-itertools]
+    D -->|否| F[手动切片实现]
+
+    C --> G[✅ 推荐]
+    E --> H[✅ 成熟稳定]
+
+    style C fill:#c8e6c9
+    style E fill:#c8e6c9
+    style F fill:#fff3e0
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "分批处理需求" → Chiikawa (吉伊) [initiator]
+- B "Python 版本?" → Hachiware (小八) [decision]
+- C "使用 itertools.batched" → Usagi (乌萨奇)
+- D "接受外部依赖?" → Hachiware (小八) [decision]
+- E "使用 more-itertools" → Chiikawa (吉伊)
+- F "手动切片实现" → Hachiware (小八)
+- G "✅ 推荐" → Usagi (乌萨奇)
+- H "✅ 成熟稳定" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

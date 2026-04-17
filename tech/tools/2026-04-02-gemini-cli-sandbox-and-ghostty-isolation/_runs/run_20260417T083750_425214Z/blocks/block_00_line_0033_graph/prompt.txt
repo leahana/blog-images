@@ -1,0 +1,116 @@
+Chiikawa official manga style educational illustration, 16:9, explaining AI tool security.
+
+=== TITLE ===
+"AI 工具安全运行流程" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Flowchart with decision diamonds and labelled process bubbles, winding left-to-right across the frame.
+
+Background: Soft gradient cream (#FFF8E7) to pastel lavender (#E6E6FA), minimal scattered flower petals
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round creature with pink blush marks, stands at a computer, looking hesitant.
+- Wears a tiny headset microphone.
+Visual: A computer screen with a generic AI tool interface.
+Label: "准备运行 AI 工具 (Prepare to run AI tool)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "要开始了吗… (Is it time to start...?)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, holds a clipboard and pen, looking thoughtful.
+- Stands next to Chiikawa, offering guidance.
+Visual: A branching path leading to "Yes" or "No".
+Label: "AI 是否需要执行 Shell 命令? (Does the AI need to execute Shell commands?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "我们需要评估一下 AI 的需求 (We need to evaluate the AI's needs)."
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, stands relaxed, arms crossed.
+- A carefree expression on its face.
+Visual: A simple chat window.
+Label: "普通对话模式: 无需沙盒 (Normal chat mode: No sandbox needed)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "没问题！(No problem!)"
+
+[CONTENT_SECTION_4]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is now pointing at a flow chart, looking diligent.
+- The inverted-V fur split on his forehead is clearly visible.
+Visual: A fork in the road symbolising the next decision.
+Label: "任务涉及哪些范围? (What areas are involved in the task?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "下一步要看任务的范围了 (The next step is to look at the scope of the task)."
+
+[CONTENT_SECTION_5]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round creature with pink blush marks, typing cautiously on a keyboard.
+- Appears slightly nervous.
+Visual: A virtual sandbox environment with UI elements.
+Label: "使用 Ghostty Sandbox (Use Ghostty Sandbox)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "这个沙盒看起来很安全 (This sandbox looks safe)."
+
+[CONTENT_SECTION_6]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, peers intently at a code review screen.
+- A magnifying glass is in his hand.
+Visual: A screen displaying complex code changes.
+Label: "是否信任生成内容? (Do you trust the generated content?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "代码有潜在风险吗？(Is there any potential risk in the code?)"
+
+[CONTENT_SECTION_7]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, gives a thumbs up.
+- Looks confident and reassuring.
+Visual: A green checkmark symbol.
+Label: "直接运行 (Run directly)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "没问题，直接运行！(No problem, run it directly!)"
+
+[CONTENT_SECTION_8]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, dramatically types a command into a terminal.
+- Holds a can of soda in the other hand.
+Visual: A terminal window displaying "gemini -s".
+Label: "开启 Gemini CLI Sandbox: gemini -s (Enable Gemini CLI Sandbox: gemini -s)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "喔～！ Gemini Sandbox！(Ooooh! Gemini Sandbox!)"
+
+[CONTENT_SECTION_9]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, checks a rollback button on a console.
+- A thoughtful look on its face.
+Visual: A prominent "Undo" button.
+Label: "需要一键撤回? (Need one-click rollback?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "需要快速撤回吗？ (Do we need a quick rollback?)"
+
+[CONTENT_SECTION_10]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round creature with pink blush marks, carefully navigates a Git interface.
+- A tiny Git branch icon is visible.
+Visual: A Git branching diagram.
+Label: "结合 Git Worktree: gemini -s -w (Combine with Git Worktree: gemini -s -w)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "Git Worktree 可以帮我！(Git Worktree can help me!)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "Shell 命令 (Shell command)"
+Box 2: "沙盒 (Sandbox): 安全的隔离环境 (Safe isolated environment)"
+Box 3: "Ghostty Sandbox: 用于 UI/配置测试 (For UI/configuration testing)"
+Box 4: "Gemini CLI Sandbox: 用于代码重构 (For code refactoring)"
+Box 5: "Git Worktree: 便于快速撤回 (Facilitates quick rollback)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, reassuring, and slightly cautious, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

@@ -1,0 +1,103 @@
+ASPECT_RATIO: 16:9
+
+Chiikawa official manga style educational illustration, 16:9, explaining pnpm installation process.
+
+=== TITLE ===
+"pnpm 安装流程" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: flowchart diagram, left-to-right
+
+Background: Soft gradient cream (#FFF8E7) to light-blue (#E0F7FA), minimal floating star and flower elements
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is nervously typing on a large keyboard.
+- A miniature computer tower and monitor are next to her.
+Visual: An illustration of a root directory icon is above the cloud label.
+Label: "pnpm install - 根项目 (pnpm install - root project)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+吉伊: "正在安装根项目… (Installing root project…)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is holding a clipboard and pointing to it with a pen. He has a focused expression.
+- The clipboard displays a list of Hexo and plugin names.
+Visual: An illustration of a Hexo logo is above the cloud label.
+Label: "安装 Hexo 及插件 (Install Hexo and plugins)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+小八: "接下来，安装 Hexo 及其必要的插件。(Next, install Hexo and its necessary plugins.)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, is enthusiastically navigating through a file directory displayed on a terminal screen.
+- The terminal displays the path "themes/kratos-rebirth".
+Visual: An illustration of a folder icon with a theme swatch is above the cloud label.
+Label: "cd themes/kratos-rebirth" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+乌萨奇: "喔嗨唷！切换到主题目录！(Ohayo! Switching to the theme directory!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is patiently waiting near a progress bar.
+- The progress bar is partially filled.
+Visual: An illustration of a node_modules folder is above the cloud label.
+Label: "pnpm install - 主题 (pnpm install - theme)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+吉伊: "主题安装中… (Theme installing…)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is overseeing a build process with a serious expression.
+- He is holding a small wrench.
+Visual: An illustration of JS and CSS files is above the cloud label.
+Label: "pnpm run build - 主题 JS/CSS (pnpm run build - Theme JS/CSS)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+小八: "构建主题的 JavaScript 和 CSS 文件。(Building the theme's JavaScript and CSS files.)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, is energetically generating the static files with a flourish.
+- He is holding a magic wand.
+Visual: An illustration of static HTML files is above the cloud label.
+Label: "pnpm run build - hexo generate" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+乌萨奇: "生成！静态文件生成！(Generate! Static files generate!)"
+
+[CONTENT_SECTION_7]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is happily presenting the finished static files.
+- She is surrounded by neatly organized files.
+Visual: An illustration of a folder labelled "public" is above the cloud label.
+Label: "./public 静态文件 (./public static files)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+吉伊: "完成了！这是静态文件！(Completed! These are the static files!)"
+
+=== KEY CONCEPTS ===
+7 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "pnpm install：安装项目依赖 (Install project dependencies)"
+Box 2: "根项目：项目的主目录 (Project's main directory)"
+Box 3: "Hexo：一个静态博客框架 (A static blog framework)"
+Box 4: "插件：扩展 Hexo 功能的模块 (Modules that extend Hexo functionality)"
+Box 5: "主题：博客的视觉设计 (Visual design of the blog)"
+Box 6: "pnpm run build：运行构建脚本 (Run build scripts)"
+Box 7: "静态文件：无需服务器处理的文件 (Files that do not require server processing)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, and slightly anxious, educational goal, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, explaining the pnpm installation workflow

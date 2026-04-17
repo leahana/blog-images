@@ -1,0 +1,71 @@
+Chiikawa official manga style educational illustration, 4:3, explaining Java JDBC data handling.
+
+=== TITLE ===
+"Java JDBC 数据处理流程" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Circular data flow, emphasizing the cyclical nature of data transfer between Java objects and the MySQL database.
+
+Background: Soft gradient cream (#FFF8E7) to light-mint (#BFFCC6), minimal decorative elements with tiny data icons (e.g., database cylinders, code snippets, timestamp symbols).
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks at a clock face on a Java object and passes it on.
+- Holding a "Java 对象<br/>LocalDateTime" (Java Object LocalDateTime)
+Visual: An animated Java object (coffee cup) emitting LocalDateTime data (a clock)
+Label: "Java 对象<br/>LocalDateTime" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+吉伊: "LocalDateTime 数据准备好了! (LocalDateTime data is ready!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, analyzes the data stream.
+- Holding a clipboard.
+Visual: A TypeHandler processing the data.
+Label: "TypeHandler" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+小八: "正在处理时间类型... (Processing time type...)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, jumps up and sends the data onwards as a Timestamp object.
+- Holding a timestamp icon.
+Visual: A JDBC Driver sending data to MySQL.
+Label: "JDBC Driver" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+乌萨奇: "咻咻！发送数据！(Hoo-hoo! Sending data!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, represents the MySQL database
+- Sitting inside a MySQL database server.
+Visual: MySQL Database.
+Label: "MySQL" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+吉伊: "数据已储存！ (Data stored!)"
+
+=== KEY CONCEPTS ===
+4 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "Java 对象 (Java Object)": 包含数据的Java对象 (Java object containing the data)
+Box 2: "TypeHandler": 负责数据类型转换 (Responsible for data type conversion)
+Box 3: "JDBC Driver": 数据库驱动程序，用于连接数据库 (Database driver, used to connect to the database)
+Box 4: "MySQL": 关系型数据库 (Relational database)
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, and slightly humorous, educational goal of demystifying technical processes
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

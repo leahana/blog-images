@@ -1,0 +1,13 @@
+graph TD
+    A[数据库备份] --> B[物理备份]
+    A --> C[逻辑备份]
+    B --> D[冷备份<br/>关闭数据库]
+    B --> E[热备份<br/>RMAN / XtraBackup]
+    C --> F[Oracle<br/>exp / expdp]
+    C --> G[MySQL<br/>mysqldump]
+    A --> H[增量备份<br/>binlog / RMAN]
+
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#c8e6c9
+    style H fill:#f3e5f5

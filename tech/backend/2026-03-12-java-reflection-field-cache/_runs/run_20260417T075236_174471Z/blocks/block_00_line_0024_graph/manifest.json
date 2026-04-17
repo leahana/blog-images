@@ -1,0 +1,80 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 0,
+    "line_number": 24
+  },
+  "completed_at": "2026-04-17T07:54:22.689934+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 2,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/backend/2026-03-12-java-reflection-field-cache.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/_runs/run_20260417T075236_174471Z/blocks/block_00_line_0024_graph/result.webp",
+    "file_size_bytes": 111680,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/diagram_20260417_075422_00.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-12-java-reflection-field-cache/diagram_20260417_075422_00.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1248872,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T075236_174471Z",
+  "started_at": "2026-04-17T07:52:36.195238+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 94868,
+    "store": 177,
+    "total": 106498,
+    "translate": 11446
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 2,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 4525,
+    "retry_count": 1,
+    "retry_events": [
+      {
+        "attempt": 1,
+        "error_message": "Cannot send a request, as the client has been closed.",
+        "error_type": "RuntimeError",
+        "quota_type": null,
+        "sleep_seconds": 2.0,
+        "status_code": "Cannot send a request, as the client has been closed."
+      }
+    ],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

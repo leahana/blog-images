@@ -1,0 +1,8 @@
+graph TD
+    A[前台运行 command] --> B{你怎么处理}
+    B -->|Ctrl+C| C[终止进程]
+    B -->|Ctrl+Z| D[挂起进程]
+    D --> E[bg 后台继续]
+    E --> F[仍绑定当前 shell]
+    B -->|tmux| G[会话可分离]
+    G --> H[断线后仍可重连]

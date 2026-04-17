@@ -1,0 +1,71 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 0,
+    "line_number": 23
+  },
+  "completed_at": "2026-04-17T07:47:45.106284+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 2,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/backend/2023-02-17-redis-install-and-scenarios.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/_runs/run_20260417T074610_586054Z/blocks/block_00_line_0023_graph/result.webp",
+    "file_size_bytes": 180584,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/diagram_20260417_074744_00.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2023-02-17-redis-install-and-scenarios/diagram_20260417_074744_00.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1475520,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T074610_586054Z",
+  "started_at": "2026-04-17T07:46:10.605486+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 72460,
+    "store": 288,
+    "total": 94502,
+    "translate": 21751
+  },
+  "translation": {
+    "aspect_ratio": "16:9",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 12387,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

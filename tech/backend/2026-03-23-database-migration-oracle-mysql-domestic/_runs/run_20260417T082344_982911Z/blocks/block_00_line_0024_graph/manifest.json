@@ -1,0 +1,80 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 0,
+    "line_number": 24
+  },
+  "completed_at": "2026-04-17T08:25:06.297090+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T082344_982911Z/blocks/block_00_line_0024_graph/result.webp",
+    "file_size_bytes": 121694,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/diagram_20260417_082506_00.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/diagram_20260417_082506_00.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1311099,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T082344_982911Z",
+  "started_at": "2026-04-17T08:23:44.998716+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 65845,
+    "store": 257,
+    "total": 81299,
+    "translate": 15191
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 2,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 6117,
+    "retry_count": 1,
+    "retry_events": [
+      {
+        "attempt": 1,
+        "error_message": "HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))",
+        "error_type": "TransportError",
+        "quota_type": null,
+        "sleep_seconds": 2.0,
+        "status_code": "HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
+      }
+    ],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

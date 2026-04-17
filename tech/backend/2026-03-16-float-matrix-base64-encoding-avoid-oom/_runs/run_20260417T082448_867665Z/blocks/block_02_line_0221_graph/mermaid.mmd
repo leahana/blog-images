@@ -1,0 +1,10 @@
+graph TD
+    A["JSON 字符串输入"] -->|"Jackson 解析"| B["创建 JsonParser"]
+    B --> C["逐 token 读取字符串"]
+    C --> D["String 转 float"]
+    D --> E["构建临时 ArrayList"]
+    E --> F["ArrayList 转 float[]"]
+    F --> G["float[][] 最终结果"]
+
+    style A fill:#ffccbc,stroke:#333,color:#000
+    style G fill:#c8e6c9,stroke:#333,color:#000

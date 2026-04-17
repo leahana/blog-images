@@ -1,0 +1,17 @@
+graph TD
+    A[百万数据处理] --> B[查询策略]
+    A --> C[导出策略]
+    B --> D[常规分页]
+    B --> E[流式查询]
+    B --> F[游标查询]
+    C --> G[EasyExcel]
+    G --> H[分批写入多Sheet]
+
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#fff3e0
+    style D fill:#c8e6c9
+    style E fill:#c8e6c9
+    style F fill:#c8e6c9
+    style G fill:#f3e5f5
+    style H fill:#f3e5f5

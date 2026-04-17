@@ -1,0 +1,71 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 2,
+    "line_number": 397
+  },
+  "completed_at": "2026-04-17T09:24:44.362953+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T091452_936229Z/blocks/block_02_line_0397_graph/result.webp",
+    "file_size_bytes": 146528,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/diagram_20260417_092444_02.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/diagram_20260417_092444_02.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1382120,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T091452_936229Z",
+  "started_at": "2026-04-17T09:23:29.712423+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 63958,
+    "store": 209,
+    "total": 74652,
+    "translate": 10479
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 6901,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

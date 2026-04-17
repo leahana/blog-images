@@ -1,0 +1,68 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 1,
+    "line_number": 58
+  },
+  "completed_at": null,
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/prompt.txt",
+    "result_metadata_path": null,
+    "result_path": null,
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/tools/2026-03-31-github-actions-vs-harness-selection-note.md"
+  },
+  "output": {
+    "artifact_metadata_path": null,
+    "artifact_result_path": null,
+    "file_size_bytes": null,
+    "format": null,
+    "link_mode": null,
+    "metadata_link_mode": null,
+    "primary_metadata_path": null,
+    "primary_path": null
+  },
+  "paint": {
+    "attempt_count": 0,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": null,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "pending"
+  },
+  "run_id": "run_20260417T093454_101431Z",
+  "started_at": "2026-04-17T09:35:55.353905+00:00",
+  "status": "running",
+  "timings_ms": {
+    "translate": 10923
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 6472,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

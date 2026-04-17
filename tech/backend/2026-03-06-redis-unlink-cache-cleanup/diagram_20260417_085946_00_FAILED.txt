@@ -1,0 +1,91 @@
+# Failed image prompt — block 0
+# Diagram type: graph
+# Source line: 66
+
+## Original Mermaid Source
+
+```mermaid
+graph TD
+    A["确定要清理的 key 模式"] --> B["SCAN 游标扫描，每批 100 个"]
+    B --> C{"还有更多 key?"}
+    C -->|是| D["UNLINK 批量删除当前批次"]
+    D --> B
+    C -->|否| E["清理完成，查看内存变化"]
+
+    style A fill:#e3f2fd,stroke:#333,color:#000
+    style E fill:#c8e6c9,stroke:#333,color:#000
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 4:3, explaining Redis key deletion.
+
+=== TITLE ===
+"Redis Key 清理流程 (Redis Key Deletion Process)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Circular lifecycle flow
+
+Background: Soft gradient cream (#FFF8E7) to light-cyan (#E0FFFF), minimal star and bubble decorations
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks determined while holding a magnifying glass over a pattern of Redis keys.
+- Magnifying glass, list of Redis key patterns
+Visual: A group of tiny Redis key icons with different patterns.
+Label: "确定要清理的 key 模式 (Confirm Key Pattern to Clean)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "要仔细确认 Key 的模式哦! (Make sure to carefully confirm the Key Pattern!)"
+
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, stands in front of a monitor displaying a SCAN command. He has a clipboard and pen.
+- Clipboard, pen, monitor displaying SCAN command
+Visual: A computer screen showing the SCAN command with the cursor indicating the scanning process.
+Label: "SCAN 游标扫描，每批 100 个 (SCAN cursor scan, 100 per batch)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "每次扫描 100 个 Key，分批处理! (Scan 100 keys each time, process in batches!)"
+
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit with long ears, jumps excitedly, holding a large question mark.
+- Large question mark prop
+Visual: A branching path, one leading to "YES" and the other to "NO".
+Label: "还有更多 key? (Are there more keys?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "还有没有？有没有？ (Are there more? Are there more?)"
+
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks energetic, holding a tiny hammer next to a cluster of Redis keys being deleted.
+- Tiny hammer, vanishing Redis key icons
+Visual: Redis key icons disappearing in a puff of smoke.
+Label: "UNLINK 批量删除当前批次 (UNLINK Batch Delete Current Batch)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "砰砰砰! 删除! (Bang bang bang! Delete!)"
+
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is looking at a memory usage graph on a computer screen. He's nodding approvingly.
+- Computer screen displaying memory usage graph
+Visual: A graph showing a decrease in memory usage over time.
+Label: "清理完成，查看内存变化 (Cleaning Complete, Check Memory Changes)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "内存下降了，清理成功! (Memory usage decreased, cleaning successful!)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "Key 模式 (Key Pattern)": 要清理的 Key 的规则 (The rules for the Keys to be cleaned)。
+Box 2: "SCAN 游标 (SCAN Cursor)": 逐步扫描 Redis Key 的方法 (A method to incrementally scan Redis Keys)。
+Box 3: "UNLINK 命令 (UNLINK Command)": 异步删除 Key，避免阻塞 (Asynchronously deletes Keys, avoiding blocking)。
+Box 4: "批量删除 (Batch Delete)": 每次删除一批 Key (Deletes a batch of Keys each time)。
+Box 5: "内存变化 (Memory Change)": 清理后内存使用量的变化 (The change in memory usage after cleaning)。
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, Cheerful, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes

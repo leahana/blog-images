@@ -1,0 +1,90 @@
+ASPECT_RATIO: 16:9
+
+Chiikawa official manga style educational illustration, 16:9, explaining API authentication flow.
+
+=== TITLE ===
+"API 认证流程 (API Authentication Flow)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Horizontal sequence diagram showing information flow between components.
+
+Background: Soft gradient cream (#FFF8E7) to pastel lavender (#E6E6FA), minimal floating stars and speech bubbles.
+
+=== MAIN CONTENT ===
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round character, looks timidly at the API gateway.
+- Chiikawa clutches a login form.
+Visual: A user icon represented by Chiikawa facing an API Gateway.
+Label: "1. 登录请求 (Login Request)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "用户名和密码... (Username and password...)"
+
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, stands behind the API Gateway with a serious expression.
+- Hachiware holds a clipboard and pen, inspecting the request.
+Visual: The API Gateway represented by Hachiware forwarding the request to the Authentication Service.
+Label: "2. 转发认证请求 (Forward Authentication Request)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "验证用户身份... (Verifying user identity...)"
+
+Character: Usagi (乌萨奇)
+- Usagi, the beige rabbit with long ears, jumps excitedly while holding JWT and Refresh Tokens.
+Visual: The Authentication Service represented by Usagi returning JWT and Refresh Tokens.
+Label: "3. 返回 JWT + Refresh Token (Return JWT + Refresh Token)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "咻咻！令牌！(Shoo shoo! Tokens!)"
+
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round character, happily receives the tokens.
+- Chiikawa holds a small golden key (representing the token).
+Visual: Chiikawa receiving the tokens from the API Gateway.
+Label: "4. 返回令牌 (Return Token)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "谢谢！(Thank you!)"
+
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white round character, confidently sends a business request with the JWT.
+- Chiikawa holds up the golden key (JWT) prominently.
+Visual: Chiikawa sending a business request carrying the JWT to the API Gateway.
+Label: "5. 业务请求 (携带 JWT) (Business Request (with JWT))" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "请求业务数据！(Requesting business data!)"
+
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, double-checks the JWT signature diligently.
+- Hachiware uses a magnifying glass to examine the JWT.
+Visual: Hachiware (API Gateway) verifying the JWT signature internally.
+Label: "6. 验证 JWT 签名 (Verify JWT Signature)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "检查签名... (Checking signature...)"
+
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, forwards the request with user information.
+- Hachiware points toward the Business Service.
+Visual: The API Gateway forwarding the validated request and user info to the Business Service.
+Label: "7. 转发请求 (附带用户信息) (Forward Request (with User Info))" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "转发业务请求... (Forwarding business request...)"
+
+Character: Usagi (乌萨奇)
+- Usagi, the beige rabbit, joyfully returns the business data.
+- Usagi throws confetti in celebration.
+Visual: The Business Service represented by Usagi returning business data to Chiikawa.
+Label: "8. 返回业务数据 (Return Business Data)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "嗨呀嗨呀！数据！(Hiya hiya! Data!)"
+
+=== KEY CONCEPTS ===
+3 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "JWT (JSON Web Token) - 一种安全传输信息的标准 (A standard for securely transmitting information)."
+Box 2: "Refresh Token - 用于在 JWT 过期后获取新的 JWT (Used to obtain new JWTs after the JWT expires)."
+Box 3: "API 网关 (API Gateway) - 系统的入口点，负责认证和路由请求 (The system's entry point, responsible for authentication and routing requests)."
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, educational

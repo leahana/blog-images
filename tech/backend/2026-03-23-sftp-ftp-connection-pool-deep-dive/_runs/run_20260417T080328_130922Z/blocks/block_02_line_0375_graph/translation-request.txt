@@ -1,0 +1,36 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A["borrowObject()"] --> B{"池中有空闲对象?"}
+    B -->|"有"| C["取出对象"]
+    B -->|"无且未达上限"| D["factory.create()"]
+    B -->|"无且已达上限"| E["等待 maxWaitMillis 超时抛异常"]
+    C --> F{"testOnBorrow?"}
+    F -->|"验证通过"| G["返回给调用方"]
+    F -->|"验证失败"| H["destroyObject 并重试"]
+    D --> G
+
+    style G fill:#c8e6c9,stroke:#333,color:#000
+    style E fill:#ffccbc,stroke:#333,color:#000
+    style H fill:#ffccbc,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "borrowObject()" → Chiikawa (吉伊) [initiator]
+- B "池中有空闲对象?" → Hachiware (小八) [decision]
+- C "取出对象" → Usagi (乌萨奇)
+- D "factory.create()" → Chiikawa (吉伊)
+- E "等待 maxWaitMillis 超时抛异常" → Hachiware (小八)
+- F "testOnBorrow?" → Hachiware (小八) [decision]
+- G "返回给调用方" → Usagi (乌萨奇)
+- H "destroyObject 并重试" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

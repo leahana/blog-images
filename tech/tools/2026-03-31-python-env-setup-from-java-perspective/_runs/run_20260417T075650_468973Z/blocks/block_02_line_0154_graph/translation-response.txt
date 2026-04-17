@@ -1,0 +1,128 @@
+ASPECT_RATIO: 16:9
+
+Chiikawa official manga style educational illustration, 16:9, explaining Python项目选型 (Python Project Selection).
+
+=== TITLE ===
+"Python 项目选型指南 (Python Project Selection Guide)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Decision tree flow chart
+
+Background: Soft gradient cream (#FFF8E7) to light-cyan (#E0FFFF), minimal floating star stickers
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa (the small, round, white marshmallow) stands at a crossroads, looking slightly worried but determined, holding a tiny magnifying glass.
+- Wearing a small explorer hat.
+Visual: A branching road ahead, with question mark signs along each path.
+Label: "开始选型 (Start Selection)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa 吉伊 says: "选哪个好呢… (Which one should I choose...)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware (the white cat with dusty-blue ears) stands in front of a large binary choice sign, holding a clipboard with a checklist.
+- Focused expression, pointing to the sign with a pen.
+Visual: The sign splits into two paths: "是 (Yes)" and "否 (No)".
+Label: "有非 Python 二进制依赖? (Any non-Python Binary Dependencies?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware 小八 says: "先确认依赖关系! (First, confirm the dependencies!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi (the tall light-beige rabbit) jumps excitedly, holding a Conda logo.
+- Energetic pose, wide eyes.
+Visual: A simple illustration of the Conda logo.
+Label: "选 Conda (Choose Conda)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi 乌萨奇 says: "乌哇! Conda! (Uwa! Conda!)"
+
+[CONTENT_SECTION_4]
+Character: Hachiware (小八)
+- Hachiware (the white cat with dusty-blue ears) now considers another choice, holding a Python logo.
+- Calm and analytical expression.
+Visual: A Python logo.
+Label: "纯 Python 项目? (Pure Python Project?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware 小八 says: "如果只是 Python... (If it's just Python...)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware (the white cat with dusty-blue ears) considers shell defaults
+- Adjusting glasses.
+Visual: A terminal window icon.
+Label: "需要全局 Shell 默认? (Need Global Shell Defaults?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware 小八 says: "全局配置重要吗? (Is global configuration important?)"
+
+[CONTENT_SECTION_6]
+Character: Chiikawa (吉伊)
+- Chiikawa (the small, round, white marshmallow) uses "pyenv global + uv/Poetry"
+- Happy expression.
+Visual: Small icons for pyenv, uv, and Poetry.
+Label: "pyenv global + uv/Poetry" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa 吉伊 says: "这样配置很方便! (This configuration is very convenient!)"
+
+[CONTENT_SECTION_7]
+Character: Hachiware (小八)
+- Hachiware (the white cat with dusty-blue ears) holding stopwatch.
+- Concentrating on time efficiency.
+Visual: A stopwatch.
+Label: "追求秒级同步? (Seeking Second-Level Synchronization?)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware 小八 says: "速度很重要! (Speed is very important!)"
+
+[CONTENT_SECTION_8]
+Character: Hachiware (小八)
+- Hachiware (the white cat with dusty-blue ears) uses "uv init"
+- Managing a single project.
+Visual: A single project folder icon.
+Label: "uv init 单项目中心 (uv init Single Project Center)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware 小八 says: "单个项目用 uv! (Use uv for a single project!)"
+
+[CONTENT_SECTION_9]
+Character: Usagi (乌萨奇)
+- Usagi (the tall light-beige rabbit) with "pyenv + Poetry"
+- Declaring dependencies.
+Visual: Dependency list icon.
+Label: "pyenv + Poetry 完整声明 (pyenv + Poetry Complete Declaration)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi 乌萨奇 says: "声明所有依赖! (Declare all dependencies!)"
+
+[CONTENT_SECTION_10]
+Character: Chiikawa (吉伊)
+- Chiikawa (the small, round, white marshmallow) thinking about Conda or asdf.
+- Considering multiple languages
+Visual: Conda and asdf logos side-by-side.
+Label: "考虑 Conda 或 asdf (Consider Conda or asdf)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa 吉伊 says: "多语言环境呢... (What about multi-language environments...)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "Conda: 管理非 Python 依赖 (Manage Non-Python Dependencies)"
+Box 2: "uv: 快速依赖管理 (Fast Dependency Management)"
+Box 3: "Poetry: Python 依赖声明 (Python Dependency Declaration)"
+Box 4: "pyenv: 管理 Python 版本 (Manage Python Versions)"
+Box 5: "asdf: 多语言版本管理 (Multi-Language Version Management)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Helpful, Informative, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for developers

@@ -1,0 +1,85 @@
+Chiikawa official manga style educational illustration, 4:3, explaining float matrix serialization and deserialization.
+
+=== TITLE ===
+"float[][] 矩阵编解码流程 (float[][] Matrix Encoding and Decoding Process)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Circular lifecycle flow, showing data transformation stages
+
+Background: Soft gradient cream (#FFF8E7) to pastel lavender (#E6E6FA), minimal scattered musical notes and sparkles
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, looks worried while holding a float matrix represented by a grid of numbers.
+- Props: A glowing float matrix grid.
+Visual: A 2D array of floating-point numbers (float[][]).
+Label: "float[][] 矩阵 (float[][] Matrix)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "这个矩阵要怎么保存下来呢？ (How do I save this matrix?)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, explains the next step with a pointer and clipboard.
+- Props: Clipboard with ByteBuffer details, pointer.
+Visual: ByteBuffer representation with dimension and data sections.
+Label: "ByteBuffer 写入维度 + 数据 (ByteBuffer Write Dimension + Data)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "先把矩阵的维度和数据写入 ByteBuffer。 (First, write the matrix dimensions and data into ByteBuffer.)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the energetic rabbit, jumps excitedly while encoding the ByteBuffer into Base64.
+- Action: Jumping and throwing stars.
+Visual: Base64 encoded string representation.
+Label: "Base64 编码为字符串 (Base64 Encode to String)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "喔咿！变成字符串了！ (Oyi! It became a string!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is now decoding the Base64 string back to bytes, with a confused expression.
+- Props: Wrench, unsure gesture.
+Visual: Base64 decoded byte array.
+Label: "Base64 解码为 byte[] (Base64 Decode to byte[])" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "这个怎么变回矩阵呢？ (How to change this back to the matrix?)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, points to the ByteBuffer again, explaining how to read the dimensions and data.
+- Props: Clipboard with ByteBuffer structure, pointer.
+Visual: ByteBuffer representation being read.
+Label: "ByteBuffer 读取维度 + 数据 (ByteBuffer Read Dimension + Data)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "从 ByteBuffer 里读取维度和数据！ (Read the dimensions and data from the ByteBuffer!)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi, the energetic rabbit, triumphantly presents the restored float matrix.
+- Action: Holding a perfect matrix display.
+Visual: Restored float matrix.
+Label: "还原 float[][] 数组 (Restore float[][] Array)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "还原成功！ 啪啪啪！ (Successfully restored! Pa pa pa!)"
+
+=== KEY CONCEPTS ===
+6 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "float[][] 矩阵 (float[][] Matrix)"
+Box 2: "ByteBuffer (ByteBuffer)"
+Box 3: "Base64 编码 (Base64 Encoding)"
+Box 4: "Base64 解码 (Base64 Decoding)"
+Box 5: "数据维度 (Data Dimensions)"
+Box 6: "数据存储 (Data Storage)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, and slightly humorous, educational goal is demystifying data serialization
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, explaining a technical process

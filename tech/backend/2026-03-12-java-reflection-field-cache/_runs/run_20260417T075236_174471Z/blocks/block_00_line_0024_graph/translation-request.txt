@@ -1,0 +1,28 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph LR
+    A[业务代码] -->|getFields| B{缓存命中?}
+    B -->|是| C[直接返回 Field 数组]
+    B -->|否| D[反射获取 + 存入缓存]
+    D --> C
+
+    style B fill:#fff9c4
+    style C fill:#c8e6c9
+    style D fill:#ffccbc
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "业务代码" → Chiikawa (吉伊) [initiator]
+- B "缓存命中?" → Hachiware (小八) [decision]
+- C "直接返回 Field 数组" → Usagi (乌萨奇)
+- D "反射获取 + 存入缓存" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

@@ -1,0 +1,27 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A["业务代码: objectMapper.writeValueAsString(user)"] -->|"得到 JSON 字符串"| B["{\"name\":\"张三\"}"]
+    B -->|"传入 redisTemplate.set()"| C{"Value 序列化器?"}
+    C -->|"Jackson2JsonRedisSerializer"| D["再次序列化: 外加引号+转义"]
+    C -->|"StringRedisSerializer"| E["原样写入: 纯字节拷贝"]
+
+    style D fill:#ffccbc,stroke:#333,color:#000
+    style E fill:#c8e6c9,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "业务代码: objectMapper.writeValueAsString(user)" → Chiikawa (吉伊) [initiator]
+- C "Value 序列化器?" → Hachiware (小八) [decision]
+- D "再次序列化: 外加引号+转义" → Usagi (乌萨奇)
+- E "原样写入: 纯字节拷贝" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

@@ -1,0 +1,1 @@
+2026-04-17T16:38:46 [ERROR] M2CPipeline: Image generation failed for block 1: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)

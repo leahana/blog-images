@@ -1,0 +1,71 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 0,
+    "line_number": 99
+  },
+  "completed_at": "2026-04-17T09:17:14.748417+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/private/tmp/single_block_2026-03-16-float-matrix-base64-encoding-avoid-oom_99.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/_runs/run_20260417T091617_269668Z/blocks/block_00_line_0099_graph/result.webp",
+    "file_size_bytes": 134926,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/diagram_20260417_091714_00.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-16-float-matrix-base64-encoding-avoid-oom/diagram_20260417_091714_00.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1333533,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T091617_269668Z",
+  "started_at": "2026-04-17T09:16:17.290162+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 46361,
+    "store": 249,
+    "total": 57459,
+    "translate": 10843
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 5711,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

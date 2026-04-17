@@ -1,0 +1,17 @@
+graph TD
+    A[Step1 容量规划] --> B[Step2 GC 选型]
+    B --> C[Step3 分区比例]
+    C --> D[Step4 栈内存]
+    D --> E[Step5 对象年龄]
+    E --> F[Step6 大对象阈值]
+    F --> G[Step7 CMS 参数优化]
+    G --> H[Step8 OOM dump 与 GC 日志]
+
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#c8e6c9
+    style D fill:#e3f2fd
+    style E fill:#fff3e0
+    style F fill:#c8e6c9
+    style G fill:#f3e5f5
+    style H fill:#ffcdd2

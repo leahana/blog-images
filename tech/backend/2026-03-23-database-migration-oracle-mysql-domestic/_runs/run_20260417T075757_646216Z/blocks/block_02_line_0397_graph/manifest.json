@@ -1,0 +1,107 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 2,
+    "line_number": 397
+  },
+  "completed_at": "2026-04-17T07:59:44.537661+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 2,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": {
+    "message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+    "stage": "paint",
+    "type": "ClientError"
+  },
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph",
+    "error_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph/error.txt",
+    "legacy_failed_prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/diagram_20260417_075944_02_FAILED.txt",
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph/prompt.txt",
+    "result_metadata_path": null,
+    "result_path": null,
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic/_runs/run_20260417T075757_646216Z/blocks/block_02_line_0397_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/backend/2026-03-23-database-migration-oracle-mysql-domestic.md"
+  },
+  "output": {
+    "artifact_metadata_path": null,
+    "artifact_result_path": null,
+    "file_size_bytes": null,
+    "format": null,
+    "link_mode": null,
+    "metadata_link_mode": null,
+    "primary_metadata_path": null,
+    "primary_path": null
+  },
+  "paint": {
+    "attempt_count": 5,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": null,
+    "retry_count": 4,
+    "retry_events": [
+      {
+        "attempt": 1,
+        "error_message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+        "error_type": "ClientError",
+        "quota_type": null,
+        "sleep_seconds": 2.0,
+        "status_code": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+      },
+      {
+        "attempt": 2,
+        "error_message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+        "error_type": "ClientError",
+        "quota_type": null,
+        "sleep_seconds": 2.0,
+        "status_code": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+      },
+      {
+        "attempt": 3,
+        "error_message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+        "error_type": "ClientError",
+        "quota_type": null,
+        "sleep_seconds": 4.0,
+        "status_code": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+      },
+      {
+        "attempt": 4,
+        "error_message": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+        "error_type": "ClientError",
+        "quota_type": null,
+        "sleep_seconds": 8.0,
+        "status_code": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+      }
+    ],
+    "status": "failed"
+  },
+  "run_id": "run_20260417T075757_646216Z",
+  "started_at": "2026-04-17T07:58:53.979587+00:00",
+  "status": "failed",
+  "timings_ms": {
+    "paint": 39624,
+    "total": 50559,
+    "translate": 10924
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 5302,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

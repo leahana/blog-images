@@ -1,0 +1,97 @@
+# Failed image prompt — block 1
+# Diagram type: graph
+# Source line: 118
+
+## Original Mermaid Source
+
+```mermaid
+graph LR
+    A["业务代码"] -->|"borrowConnection"| B["SimpleSftpPool"]
+    A -->|"returnConnection"| B
+    B -->|"管理"| C["ArrayBlockingQueue"]
+    B -->|"委托"| D["SftpConnectionFactory"]
+    D -->|"创建/销毁/验证"| E["JSch Session + ChannelSftp"]
+
+    style B fill:#c8e6c9,stroke:#333,color:#000
+    style D fill:#bbdefb,stroke:#333,color:#000
+    style E fill:#ffccbc,stroke:#333,color:#000
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 4:3, explaining SFTP connection pooling.
+
+=== TITLE ===
+"SFTP 连接池" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Layered technology stack, showing data flow between components
+
+Background: Soft gradient cream (#FFF8E7) to pastel green (#CEF2D0), minimal scattered musical notes and tiny sparkles
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is coding at a tiny computer, looking slightly stressed but determined.
+- Tiny keyboard and monitor.
+Visual: Code snippets floating around Chiikawa.
+Label: "业务代码 (Business Code)" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "我要连接! (I need a connection!)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, stands calmly, holding a clipboard and pointer. He's pointing to a pool of connections.
+- Clipboard with connection details, pointer.
+Visual: A neatly organized pool of SFTP connections.
+Label: "SimpleSftpPool" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "我来管理连接! (I'll manage the connections!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the energetic rabbit, is bouncing happily, holding a queue.
+- A neatly filled queue, labeled "SFTP Connections".
+Visual: An array blocking queue represented as a series of numbered slots.
+Label: "ArrayBlockingQueue" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "排队! 排队! (Queue up! Queue up!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, is carefully assembling connection details.
+- Blueprint for creating connections.
+Visual: A factory building connections.
+Label: "SftpConnectionFactory" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "创建连接！(Creating connections!)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, is validating SFTP connections. He's inspecting a JSch Session.
+- Magnifying glass, JSch Session diagram.
+Visual: JSch Session and ChannelSftp detailed diagram.
+Label: "JSch Session + ChannelSftp" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+Dialogue: "验证连接! (Validating the connections!)"
+
+=== KEY CONCEPTS ===
+5 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "业务代码 (Business Code)": 使用 SFTP 连接的代码 (Code that uses SFTP connections)"
+Box 2: "SimpleSftpPool": 连接池管理类 (Connection pool management class)"
+Box 3: "ArrayBlockingQueue": 用于存放连接的队列 (Queue for storing connections)"
+Box 4: "SftpConnectionFactory": 创建和销毁连接的工厂 (Factory for creating and destroying connections)"
+Box 5: "JSch Session + ChannelSftp": 实际的 SFTP 连接 (Actual SFTP connection)"
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Helpful, educational, cute but informative
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, to explain the SFTP connection pooling process

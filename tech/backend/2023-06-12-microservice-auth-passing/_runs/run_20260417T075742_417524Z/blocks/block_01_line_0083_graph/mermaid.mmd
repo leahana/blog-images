@@ -1,0 +1,15 @@
+graph TD
+    Client[客户端] --> Gateway[API 网关]
+    Gateway --> AuthService[认证服务]
+    Gateway --> ServiceA[服务 A]
+    Gateway --> ServiceB[服务 B]
+    Gateway --> ServiceC[服务 C]
+    AuthService --> UserDB[(用户数据库)]
+    AuthService --> Redis[(Redis 缓存)]
+
+    style Client fill:#e3f2fd
+    style Gateway fill:#fff3e0
+    style AuthService fill:#c8e6c9
+    style ServiceA fill:#f3e5f5
+    style ServiceB fill:#f3e5f5
+    style ServiceC fill:#f3e5f5

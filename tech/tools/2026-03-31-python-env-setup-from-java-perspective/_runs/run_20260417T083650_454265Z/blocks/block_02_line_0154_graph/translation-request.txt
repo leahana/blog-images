@@ -1,0 +1,41 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph TD
+    A[开始选型] --> B{有非 Python 二进制依赖?}
+    B -->|是 CUDA/MKL/R 等| C[选 Conda]
+    B -->|否| D{纯 Python 项目?}
+    D -->|是| E{需要全局 Shell 默认?}
+    E -->|是| H["pyenv global<br/>+ uv/Poetry"]
+    E -->|否| I{追求秒级同步?}
+    I -->|是| J["uv init<br/>单项目中心"]
+    I -->|否| K["pyenv + Poetry<br/>完整声明"]
+    D -->|需要管理多语言运行时| G[考虑 Conda 或 asdf]
+
+    style C fill:#ffccbc,stroke:#333,color:#000
+    style H fill:#c8e6c9,stroke:#333,color:#000
+    style J fill:#bbdefb,stroke:#333,color:#000
+    style K fill:#c8e6c9,stroke:#333,color:#000
+    style G fill:#fff9c4,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "开始选型" → Chiikawa (吉伊) [initiator]
+- B "有非 Python 二进制依赖?" → Hachiware (小八) [decision]
+- C "选 Conda" → Usagi (乌萨奇)
+- D "纯 Python 项目?" → Hachiware (小八) [decision]
+- E "需要全局 Shell 默认?" → Hachiware (小八) [decision]
+- H "pyenv global<br/>+ uv/Poetry" → Chiikawa (吉伊)
+- I "追求秒级同步?" → Hachiware (小八) [decision]
+- J "uv init<br/>单项目中心" → Hachiware (小八)
+- K "pyenv + Poetry<br/>完整声明" → Usagi (乌萨奇)
+- G "考虑 Conda 或 asdf" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

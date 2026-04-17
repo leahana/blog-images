@@ -1,0 +1,11 @@
+graph TD
+    A[pnpm install - 根项目] --> B[安装 Hexo 及插件]
+    C[cd themes/kratos-rebirth] --> D[pnpm install - 主题]
+    D --> E[pnpm run build - 主题 JS/CSS]
+    B --> F[pnpm run build - hexo generate]
+    E --> F
+    F --> G[./public 静态文件]
+
+    style A fill:#e3f2fd
+    style C fill:#fff3e0
+    style G fill:#c8e6c9

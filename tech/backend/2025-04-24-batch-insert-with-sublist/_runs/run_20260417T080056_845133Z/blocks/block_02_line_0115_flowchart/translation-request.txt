@@ -1,0 +1,26 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: flowchart
+
+```mermaid
+flowchart TD
+    subgraph 数据处理流程
+        A[数据输入]:::blue --> B[批量分片算法]:::yellow
+        B --> C[批量入库接口]:::green
+        C --> D[监控与补偿机制]:::red
+        D -.->|异常/失败| E(重试队列)
+    end
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "数据输入" → Chiikawa (吉伊) [initiator]
+- B "批量分片算法" → Hachiware (小八)
+- C "批量入库接口" → Usagi (乌萨奇)
+- D "监控与补偿机制" → Chiikawa (吉伊)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

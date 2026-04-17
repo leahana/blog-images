@@ -1,0 +1,2 @@
+2026-04-17T16:04:17 [ERROR] M2CPipeline: Image generation failed for block 1: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)
+2026-04-17T16:04:20 [ERROR] M2CPipeline: Image generation failed for block 0: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}
