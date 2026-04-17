@@ -1,0 +1,31 @@
+Please analyse this Mermaid diagram and produce the Chiikawa image prompt as instructed.
+
+Diagram type: graph
+
+```mermaid
+graph LR
+    A["pyenv<br/>版本仓库"] --> B["Python 3.x<br/>解释器二进制"]
+    B --> C["venv<br/>隔离花盆"]
+    C --> D[".venv/<br/>项目 Lib 空间"]
+    E["Poetry<br/>依赖 + 构建"] --> C
+
+    style A fill:#bbdefb,stroke:#333,color:#000
+    style B fill:#c8e6c9,stroke:#333,color:#000
+    style C fill:#c8e6c9,stroke:#333,color:#000
+    style D fill:#ffccbc,stroke:#333,color:#000
+    style E fill:#bbdefb,stroke:#333,color:#000
+```
+## Graph Classification
+This diagram is not classified as a simple 2-3 node linear flowchart.
+Follow the suggested mapping and prefer introducing all three main characters before any reuse.
+
+## Suggested Character Assignment
+Based on the diagram structure, here is a recommended character mapping.
+Follow this as your primary guide to ensure visual variety across nodes:
+- A "pyenv<br/>版本仓库" → Chiikawa (吉伊) [initiator]
+- B "Python 3.x<br/>解释器二进制" → Hachiware (小八)
+- C "venv<br/>隔离花盆" → Usagi (乌萨奇)
+- D ".venv/<br/>项目 Lib 空间" → Chiikawa (吉伊)
+- E "Poetry<br/>依赖 + 构建" → Hachiware (小八)
+
+Do not reuse a character until Chiikawa, Hachiware, and Usagi have all appeared at least once.

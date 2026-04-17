@@ -1,0 +1,71 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 1,
+    "line_number": 325
+  },
+  "completed_at": "2026-04-17T14:37:17.198363+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/_runs/run_20260417T143539_516992Z/blocks/block_01_line_0325_graph/result.webp",
+    "file_size_bytes": 114774,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/diagram_20260417_143717_01.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-04-01-gcloud-cli-basics-and-multi-config/diagram_20260417_143717_01.webp"
+  },
+  "paint": {
+    "attempt_count": 1,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1261510,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T143539_516992Z",
+  "started_at": "2026-04-17T14:36:31.800909+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 33531,
+    "store": 179,
+    "total": 45398,
+    "translate": 11685
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 6396,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

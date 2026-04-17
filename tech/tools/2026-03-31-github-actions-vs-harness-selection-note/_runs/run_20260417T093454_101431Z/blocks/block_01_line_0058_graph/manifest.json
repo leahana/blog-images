@@ -4,7 +4,7 @@
     "index": 1,
     "line_number": 58
   },
-  "completed_at": null,
+  "completed_at": "2026-04-17T09:36:52.723495+00:00",
   "config": {
     "aspect_ratio": "1:1",
     "gemini_model": "gemini-2.0-flash",
@@ -20,8 +20,8 @@
     "legacy_failed_prompt_path": null,
     "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/mermaid.mmd",
     "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/prompt.txt",
-    "result_metadata_path": null,
-    "result_path": null,
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/result.webp",
     "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/translation-request.txt",
     "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/translation-response.txt"
   },
@@ -29,27 +29,30 @@
     "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/tools/2026-03-31-github-actions-vs-harness-selection-note.md"
   },
   "output": {
-    "artifact_metadata_path": null,
-    "artifact_result_path": null,
-    "file_size_bytes": null,
-    "format": null,
-    "link_mode": null,
-    "metadata_link_mode": null,
-    "primary_metadata_path": null,
-    "primary_path": null
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/result.webp",
+    "file_size_bytes": 110202,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093652_01.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093652_01.webp"
   },
   "paint": {
-    "attempt_count": 0,
+    "attempt_count": 1,
     "model": "gemini-3.1-flash-image-preview",
-    "result_bytes": null,
+    "result_bytes": 1259876,
     "retry_count": 0,
     "retry_events": [],
-    "status": "pending"
+    "status": "succeeded"
   },
   "run_id": "run_20260417T093454_101431Z",
   "started_at": "2026-04-17T09:35:55.353905+00:00",
-  "status": "running",
+  "status": "succeeded",
   "timings_ms": {
+    "paint": 46269,
+    "store": 172,
+    "total": 57370,
     "translate": 10923
   },
   "translation": {

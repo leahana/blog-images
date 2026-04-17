@@ -13,6 +13,24 @@
       "manifest_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_00_line_0028_graph/manifest.json",
       "output_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093555_00.webp",
       "status": "succeeded"
+    },
+    {
+      "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph",
+      "block_index": 1,
+      "diagram_type": "graph",
+      "line_number": 58,
+      "manifest_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_01_line_0058_graph/manifest.json",
+      "output_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093652_01.webp",
+      "status": "succeeded"
+    },
+    {
+      "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_02_line_0139_graph",
+      "block_index": 2,
+      "diagram_type": "graph",
+      "line_number": 139,
+      "manifest_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/blocks/block_02_line_0139_graph/manifest.json",
+      "output_path": null,
+      "status": "failed"
     }
   ],
   "command": {
@@ -32,7 +50,7 @@
     ],
     "shell": "python -m m2c_pipeline /Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/tools/2026-03-31-github-actions-vs-harness-selection-note.md --translation-mode vertex --output-dir /Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note --max-workers 1 --log-level ERROR"
   },
-  "completed_at": null,
+  "completed_at": "2026-04-17T12:29:30.416037+00:00",
   "config": {
     "aspect_ratio": "1:1",
     "gemini_model": "gemini-2.0-flash",
@@ -67,16 +85,20 @@
     "snapshot_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/_runs/run_20260417T093454_101431Z/input.md"
   },
   "run_id": "run_20260417T093454_101431Z",
-  "saved_image_paths": [],
+  "saved_image_paths": [
+    "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093555_00.webp",
+    "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-github-actions-vs-harness-selection-note/diagram_20260417_093652_01.webp"
+  ],
   "started_at": "2026-04-17T09:34:54.101431+00:00",
-  "status": "running",
+  "status": "completed_with_failures",
   "summary": {
-    "block_count": 1,
+    "block_count": 3,
     "dry_run_count": 0,
-    "failed_count": 0,
-    "saved_count": 1
+    "failed_count": 1,
+    "saved_count": 2
   },
   "timings_ms": {
-    "extract": 0
+    "extract": 0,
+    "total": 400750
   }
 }

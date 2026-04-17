@@ -1,0 +1,80 @@
+{
+  "block": {
+    "diagram_type": "graph",
+    "index": 1,
+    "line_number": 107
+  },
+  "completed_at": "2026-04-17T14:34:06.344429+00:00",
+  "config": {
+    "aspect_ratio": "1:1",
+    "gemini_model": "gemini-2.0-flash",
+    "image_model": "gemini-3.1-flash-image-preview",
+    "max_workers": 1,
+    "template_name": "chiikawa",
+    "translation_mode": "vertex"
+  },
+  "failure": null,
+  "files": {
+    "artifact_dir": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph",
+    "error_path": null,
+    "legacy_failed_prompt_path": null,
+    "mermaid_source_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/mermaid.mmd",
+    "prompt_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/prompt.txt",
+    "result_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/result.metadata.json",
+    "result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/result.webp",
+    "translation_request_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/translation-request.txt",
+    "translation_response_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/translation-response.txt"
+  },
+  "input": {
+    "path": "/Users/anshengyo/WorkSpace/sites/leahana.github.io/source/_posts/tech/tools/2026-03-31-python-env-setup-from-java-perspective.md"
+  },
+  "output": {
+    "artifact_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/result.metadata.json",
+    "artifact_result_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/_runs/run_20260417T122930_805229Z/blocks/block_01_line_0107_graph/result.webp",
+    "file_size_bytes": 118220,
+    "format": "webp",
+    "link_mode": "hardlink",
+    "metadata_link_mode": "hardlink",
+    "primary_metadata_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/diagram_20260417_143406_01.metadata.json",
+    "primary_path": "/Users/anshengyo/WorkSpace/sites/blog-images/tech/tools/2026-03-31-python-env-setup-from-java-perspective/diagram_20260417_143406_01.webp"
+  },
+  "paint": {
+    "attempt_count": 2,
+    "model": "gemini-3.1-flash-image-preview",
+    "result_bytes": 1278294,
+    "retry_count": 1,
+    "retry_events": [
+      {
+        "attempt": 1,
+        "error_message": "Server disconnected without sending a response.",
+        "error_type": "RemoteProtocolError",
+        "quota_type": null,
+        "sleep_seconds": 2.0,
+        "status_code": "Server disconnected without sending a response."
+      }
+    ],
+    "status": "succeeded"
+  },
+  "run_id": "run_20260417T122930_805229Z",
+  "started_at": "2026-04-17T13:39:52.300706+00:00",
+  "status": "succeeded",
+  "timings_ms": {
+    "paint": 115297,
+    "store": 315,
+    "total": 126449,
+    "translate": 10830
+  },
+  "translation": {
+    "aspect_ratio": "4:3",
+    "attempt_count": 1,
+    "backend_used": "vertex",
+    "fallback_reason": null,
+    "mode_requested": "vertex",
+    "model": "gemini-2.0-flash",
+    "prompt_length": 5304,
+    "retry_count": 0,
+    "retry_events": [],
+    "status": "succeeded",
+    "used_fallback": false
+  }
+}

@@ -1,0 +1,112 @@
+# Failed image prompt — block 2
+# Diagram type: graph
+# Source line: 139
+
+## Original Mermaid Source
+
+```mermaid
+graph LR
+    A["GitHub Repo"] --> B["GitHub Actions"]
+    B --> C["Build / Test / PR Check"]
+    B --> D["Harness"]
+    D --> E["Deploy / Approval / Policy"]
+    E --> F["Staging / Production"]
+
+    style B fill:#bbdefb,stroke:#333,color:#000
+    style D fill:#c8e6c9,stroke:#333,color:#000
+    style E fill:#ffccbc,stroke:#333,color:#000
+```
+
+## Image Prompt
+
+Chiikawa official manga style educational illustration, 16:9, explaining Continuous Integration and Continuous Deployment (CI/CD).
+
+=== TITLE ===
+"CI/CD 流程 (CI/CD Process)" — floating typography, NOT anchored to any solid band or box; coral-pink (#FF8E9E) bold rounded font with White Outer Glow and Subtle Drop Shadow for legibility on light backgrounds; surrounded by small pastel flowers, twinkling stars, and tiny hearts woven naturally into the scene
+
+=== SCENE & LAYOUT ===
+Layout: Winding roadmap journey through development stages; starting at source code and ending at production.
+
+Background: Soft gradient cream (#FFF8E7) to pastel blue (#D0E7FF), minimal fluffy cloud and gear decorations
+
+=== MAIN CONTENT ===
+Use official Chiikawa characters such as Chiikawa / Hachiware / Usagi with clearly different appearances and roles
+[CONTENT_SECTION_1]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, sits in front of a computer monitor, nervously pushing code to a GitHub repository.
+- Tiny hands typing on a keyboard.
+Visual: A GitHub repository icon with a tiny Chiikawa face on it.
+Label: "GitHub Repo" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "提交代码了… (Submitting the code...)"
+
+[CONTENT_SECTION_2]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, stands confidently with a clipboard and pen, pointing to a series of automated tasks.
+- Clipboard showing a checklist.
+Visual: A sequence of gears turning to represent GitHub Actions.
+Label: "GitHub Actions" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "自动化流程启动！ (Automated process started!)"
+
+[CONTENT_SECTION_3]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, energetically jumping and performing various testing steps, like pulling levers and pushing buttons.
+- Holding test reports with happy and sad faces.
+Visual: Checkmarks and crosses flying around representing build, test, and PR checks.
+Label: "Build / Test / PR Check" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "哇咿！测试！(Wa-i! Testing!)"
+
+[CONTENT_SECTION_4]
+Character: Chiikawa (吉伊)
+- Chiikawa, the small white marshmallow, cautiously monitoring a deployment dashboard.
+- Holding a magnifying glass to examine the screen.
+Visual: The Harness logo integrated into the scene.
+Label: "Harness" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Chiikawa: "Harness 在部署… (Harness is deploying...)"
+
+[CONTENT_SECTION_5]
+Character: Hachiware (小八)
+- Hachiware, the blue-marked cat, calmly reviewing approval workflows and security policies.
+- Pointing at a document labeled "Policy".
+Visual: A gate with a lock and key representing approval and policy enforcement.
+Label: "Deploy / Approval / Policy" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Hachiware: "确保一切符合规范 (Ensuring everything complies with regulations)"
+
+[CONTENT_SECTION_6]
+Character: Usagi (乌萨奇)
+- Usagi, the tall beige rabbit, triumphantly presenting the live staging and production environments.
+- Jumping with joy in front of the deployed application.
+Visual: Two servers labeled "Staging" and "Production".
+Label: "Staging / Production" — inside a semi-transparent cloud-like blob (marshmallow-soft aesthetic, pure white at 70–80% opacity, NO hard border, soft edges blending into the background)
+[DIALOGUE_OR_ANNOTATION]
+Usagi: "最终上线啦！(Finally live!)"
+
+=== KEY CONCEPTS ===
+6 floating info boxes; each box uses a semi-transparent cloud-like blob background (marshmallow-soft, pure white at 70–80% opacity, no hard border), text in dark charcoal (#2D2D2D), medium-weight sans-serif:
+Box 1: "GitHub Repo (代码仓库)": 存储项目代码的地方 (Where project code is stored)."
+Box 2: "GitHub Actions (自动化流程)": 自动化软件开发工作流程 (Automates software development workflows)."
+Box 3: "Build / Test / PR Check (构建/测试/代码检查)": 确保代码质量 (Ensures code quality)."
+Box 4: "Harness (部署工具)": 自动化部署流程 (Automates the deployment process)."
+Box 5: "Deploy / Approval / Policy (部署/审批/策略)": 管理部署和安全 (Manages deployment and security)."
+Box 6: "Staging / Production (预发布/正式环境)": 软件发布的最终阶段 (The final stages of software release)."
+
+=== CHIIKAWA STYLE ===
+Official Chiikawa aesthetic: round bodies, large sparkly eyes, pink blush marks, tiny limbs, super deformed proportions, gentle line art
+
+=== TEXT RENDERING ===
+Typography rules (CRITICAL — apply to every label, title, and annotation):
+- Title: floating typography with White Outer Glow or Subtle Drop Shadow — NO solid background band; title integrates naturally into the illustrated scene with decorative Chiikawa elements around it
+- All labels placed inside semi-transparent cloud-like blobs (marshmallow-soft, pure white at 70–80% opacity, no hard borders) — soft edges naturally blend into the illustrated background
+- Font: bold (600–700) rounded sans-serif for title; medium-weight (500–600) for labels; NO thin, cursive, or brush-stroke fonts
+- Text color: dark charcoal (#2D2D2D) on the light blob background; minimum contrast 4.5:1
+- Chinese characters: every stroke and radical must be Fully Formed and Vector-style clarity — no hairline breaks, no missing components, no pixelation
+- Smooth anti-aliased edges; absolutely NO cracked, fragmented, or glitchy strokes
+
+=== MOOD ===
+Informative, friendly, and slightly anxious, explaining CI/CD deployment
+
+Quality: High-quality Chiikawa illustration, clear visual hierarchy, for educational purposes
