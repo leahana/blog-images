@@ -1,9 +1,0 @@
-graph TD
-    A["确定要清理的 key 模式"] --> B["SCAN 游标扫描，每批 100 个"]
-    B --> C{"还有更多 key?"}
-    C -->|是| D["UNLINK 批量删除当前批次"]
-    D --> B
-    C -->|否| E["清理完成，查看内存变化"]
-
-    style A fill:#e3f2fd,stroke:#333,color:#000
-    style E fill:#c8e6c9,stroke:#333,color:#000

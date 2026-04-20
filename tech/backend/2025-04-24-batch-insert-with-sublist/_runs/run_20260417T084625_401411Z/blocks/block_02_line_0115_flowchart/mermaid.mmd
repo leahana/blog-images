@@ -1,7 +1,0 @@
-flowchart TD
-    subgraph 数据处理流程
-        A[数据输入]:::blue --> B[批量分片算法]:::yellow
-        B --> C[批量入库接口]:::green
-        C --> D[监控与补偿机制]:::red
-        D -.->|异常/失败| E(重试队列)
-    end

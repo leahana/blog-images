@@ -1,9 +1,0 @@
-graph LR
-    A[MySQL 源库] -->|binlog| B[Canal Server]
-    B -->|消息| C[Kafka/RocketMQ]
-    C --> D[消费者：写入目标库]
-    C --> E[消费者：数据校验]
-
-    style A fill:#ffccbc,stroke:#333,color:#000
-    style B fill:#c8e6c9,stroke:#333,color:#000
-    style D fill:#bbdefb,stroke:#333,color:#000
