@@ -1,2 +1,5 @@
 # Generated pipeline run artifacts
 **/_runs/
+**/metadata.json
+**/*.metadata.json
+**/FAILED.txt
